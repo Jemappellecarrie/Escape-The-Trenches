@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Unity\\Escape The Trenches\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5793DF17-A13F-EFFB-999B-8A6708B4DE27}|Assembly-CSharp.csproj|D:\\Unity\\Escape The Trenches\\assets\\scripts\\core\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5793DF17-A13F-EFFB-999B-8A6708B4DE27}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5793DF17-A13F-EFFB-999B-8A6708B4DE27}|Assembly-CSharp.csproj|D:\\Unity\\Escape The Trenches\\assets\\scripts\\ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5793DF17-A13F-EFFB-999B-8A6708B4DE27}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5793DF17-A13F-EFFB-999B-8A6708B4DE27}|Assembly-CSharp.csproj|D:\\Unity\\Escape The Trenches\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5793DF17-A13F-EFFB-999B-8A6708B4DE27}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5793DF17-A13F-EFFB-999B-8A6708B4DE27}|Assembly-CSharp.csproj|D:\\Unity\\Escape The Trenches\\assets\\scripts\\monetization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5793DF17-A13F-EFFB-999B-8A6708B4DE27}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monetization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5793DF17-A13F-EFFB-999B-8A6708B4DE27}|Assembly-CSharp.csproj|d:\\unity\\escape the trenches\\assets\\scripts\\powerups\\coinpowerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5793DF17-A13F-EFFB-999B-8A6708B4DE27}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\powerups\\coinpowerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5793DF17-A13F-EFFB-999B-8A6708B4DE27}|Assembly-CSharp.csproj|D:\\Unity\\Escape The Trenches\\assets\\scripts\\powerups\\powerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5793DF17-A13F-EFFB-999B-8A6708B4DE27}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\powerups\\powerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5793DF17-A13F-EFFB-999B-8A6708B4DE27}|Assembly-CSharp.csproj|D:\\Unity\\Escape The Trenches\\assets\\scripts\\obstacles\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5793DF17-A13F-EFFB-999B-8A6708B4DE27}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obstacles\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5793DF17-A13F-EFFB-999B-8A6708B4DE27}|Assembly-CSharp.csproj|D:\\Unity\\Escape The Trenches\\assets\\scripts\\obstacles\\obstaclemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5793DF17-A13F-EFFB-999B-8A6708B4DE27}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obstacles\\obstaclemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5793DF17-A13F-EFFB-999B-8A6708B4DE27}|Assembly-CSharp.csproj|D:\\Unity\\Escape The Trenches\\assets\\scripts\\data\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5793DF17-A13F-EFFB-999B-8A6708B4DE27}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5793DF17-A13F-EFFB-999B-8A6708B4DE27}|Assembly-CSharp.csproj|D:\\Unity\\Escape The Trenches\\assets\\scripts\\powerups\\speedboostpowerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5793DF17-A13F-EFFB-999B-8A6708B4DE27}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\powerups\\speedboostpowerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5793DF17-A13F-EFFB-999B-8A6708B4DE27}|Assembly-CSharp.csproj|D:\\Unity\\Escape The Trenches\\assets\\scripts\\powerups\\shieldpowerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5793DF17-A13F-EFFB-999B-8A6708B4DE27}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\powerups\\shieldpowerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5793DF17-A13F-EFFB-999B-8A6708B4DE27}|Assembly-CSharp.csproj|D:\\Unity\\Escape The Trenches\\assets\\scripts\\powerups\\doublecoinspowerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5793DF17-A13F-EFFB-999B-8A6708B4DE27}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\powerups\\doublecoinspowerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5793DF17-A13F-EFFB-999B-8A6708B4DE27}|Assembly-CSharp.csproj|D:\\Unity\\Escape The Trenches\\assets\\scripts\\ads\\admanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5793DF17-A13F-EFFB-999B-8A6708B4DE27}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ads\\admanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CoinPowerUp.cs",
+              "DocumentMoniker": "D:\\Unity\\Escape The Trenches\\Assets\\Scripts\\PowerUps\\CoinPowerUp.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PowerUps\\CoinPowerUp.cs",
+              "ToolTip": "D:\\Unity\\Escape The Trenches\\Assets\\Scripts\\PowerUps\\CoinPowerUp.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PowerUps\\CoinPowerUp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T05:21:15.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Monetization.cs",
+              "DocumentMoniker": "D:\\Unity\\Escape The Trenches\\Assets\\Scripts\\Monetization.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Monetization.cs",
+              "ToolTip": "D:\\Unity\\Escape The Trenches\\Assets\\Scripts\\Monetization.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Monetization.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAUwAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T05:07:42.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdManager.cs",
+              "DocumentMoniker": "D:\\Unity\\Escape The Trenches\\Assets\\Scripts\\Ads\\AdManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ads\\AdManager.cs",
+              "ToolTip": "D:\\Unity\\Escape The Trenches\\Assets\\Scripts\\Ads\\AdManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ads\\AdManager.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAkwA8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T05:04:50.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DoubleCoinsPowerUp.cs",
+              "DocumentMoniker": "D:\\Unity\\Escape The Trenches\\Assets\\Scripts\\PowerUps\\DoubleCoinsPowerUp.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PowerUps\\DoubleCoinsPowerUp.cs",
+              "ToolTip": "D:\\Unity\\Escape The Trenches\\Assets\\Scripts\\PowerUps\\DoubleCoinsPowerUp.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PowerUps\\DoubleCoinsPowerUp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T05:04:07.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ShieldPowerUp.cs",
+              "DocumentMoniker": "D:\\Unity\\Escape The Trenches\\Assets\\Scripts\\PowerUps\\ShieldPowerUp.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PowerUps\\ShieldPowerUp.cs",
+              "ToolTip": "D:\\Unity\\Escape The Trenches\\Assets\\Scripts\\PowerUps\\ShieldPowerUp.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PowerUps\\ShieldPowerUp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T05:03:34.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SpeedBoostPowerUp.cs",
+              "DocumentMoniker": "D:\\Unity\\Escape The Trenches\\Assets\\Scripts\\PowerUps\\SpeedBoostPowerUp.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PowerUps\\SpeedBoostPowerUp.cs",
+              "ToolTip": "D:\\Unity\\Escape The Trenches\\Assets\\Scripts\\PowerUps\\SpeedBoostPowerUp.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PowerUps\\SpeedBoostPowerUp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T05:03:15.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PowerUp.cs",
+              "DocumentMoniker": "D:\\Unity\\Escape The Trenches\\Assets\\Scripts\\PowerUps\\PowerUp.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PowerUps\\PowerUp.cs",
+              "ToolTip": "D:\\Unity\\Escape The Trenches\\Assets\\Scripts\\PowerUps\\PowerUp.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PowerUps\\PowerUp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T05:00:33.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SaveSystem.cs",
+              "DocumentMoniker": "D:\\Unity\\Escape The Trenches\\Assets\\Scripts\\Data\\SaveSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\SaveSystem.cs",
+              "ToolTip": "D:\\Unity\\Escape The Trenches\\Assets\\Scripts\\Data\\SaveSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Data\\SaveSystem.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAA0wCYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T04:57:54.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnemyAI.cs",
+              "DocumentMoniker": "D:\\Unity\\Escape The Trenches\\Assets\\Scripts\\Obstacles\\EnemyAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Obstacles\\EnemyAI.cs",
+              "ToolTip": "D:\\Unity\\Escape The Trenches\\Assets\\Scripts\\Obstacles\\EnemyAI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Obstacles\\EnemyAI.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAMBCwFEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T04:56:31.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ObstacleManager.cs",
+              "DocumentMoniker": "D:\\Unity\\Escape The Trenches\\Assets\\Scripts\\Obstacles\\ObstacleManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Obstacles\\ObstacleManager.cs",
+              "ToolTip": "D:\\Unity\\Escape The Trenches\\Assets\\Scripts\\Obstacles\\ObstacleManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Obstacles\\ObstacleManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T04:55:25.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\Unity\\Escape The Trenches\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ToolTip": "D:\\Unity\\Escape The Trenches\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAApwCwAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T04:53:32.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "D:\\Unity\\Escape The Trenches\\Assets\\Scripts\\UI\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIManager.cs",
+              "ToolTip": "D:\\Unity\\Escape The Trenches\\Assets\\Scripts\\UI\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UIManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T04:59:34.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\Unity\\Escape The Trenches\\Assets\\Scripts\\Core\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\GameManager.cs",
+              "ToolTip": "D:\\Unity\\Escape The Trenches\\Assets\\Scripts\\Core\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\GameManager.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAAAGsAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T04:51:27.18Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
