@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using UnityEngine;
 using EscapeTheTrenches.Core;
 using EscapeTheTrenches.PowerUps;
@@ -7,34 +7,74 @@ namespace EscapeTheTrenches.Player
 {
     public class PlayerController : MonoBehaviour
     {
-        public float jumpForce = 10f;         // 跳跃力度
+        public float climbSpeed = 3f;        // 自动攀爬速度
+        public float jumpForce = 8f;         // 跳跃力度
+        public float jumpDistance = 2.5f;    // 跳跃时左右移动的距离
+        public bool isOnLeftWall = true;     // 是否在左侧墙壁
+        private bool canJump = true;         // 确保跳跃后不会无限跳跃
+
         private Rigidbody2D rb;
+        private Vector2 leftWallPosition;
+        private Vector2 rightWallPosition;
 
         // 金币计数
         public int coinCount = 0;
-
         // 存储道具（最多 3 个）
         private List<PowerUp> storedPowerUps = new List<PowerUp>();
         public int maxStoredPowerUps = 3;
 
-        // 是否拥有武器升级，解锁攻击敌人功能
         public bool hasWeaponUpgrade = false;
-
         public bool isInvincible = false;
         public float coinMultiplier = 1f;
 
         private void Start()
         {
             rb = GetComponent<Rigidbody2D>();
+            
+            // 计算左右墙壁的位置（基于玩家初始位置）
+            leftWallPosition = new Vector2(transform.position.x - jumpDistance, transform.position.y);
+            rightWallPosition = new Vector2(transform.position.x + jumpDistance, transform.position.y);
         }
 
         private void Update()
         {
-            // 点击屏幕触发跳跃（或游泳）
-            if (Input.GetMouseButtonDown(0))
+            // 角色自动向上攀爬
+            rb.velocity = new Vector2(rb.velocity.x, climbSpeed);
+
+            // 监听点击事件进行跳跃
+            if (Input.GetMouseButtonDown(0) && canJump)
             {
-                rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+                JumpToOtherWall();
             }
+        }
+
+        private void JumpToOtherWall()
+        {
+            canJump = false; // 防止重复跳跃
+
+            // 计算跳跃方向
+            float jumpDirection = isOnLeftWall ? 1f : -1f;
+            Vector2 jumpVelocity = new Vector2(jumpForce * jumpDirection, jumpForce);
+
+            // 施加跳跃力
+            rb.velocity = jumpVelocity;
+
+            // 切换墙壁状态
+            isOnLeftWall = !isOnLeftWall;
+
+            // 设置新位置（确保跳跃后不会偏离墙面）
+            if (isOnLeftWall)
+                transform.position = new Vector2(leftWallPosition.x, transform.position.y);
+            else
+                transform.position = new Vector2(rightWallPosition.x, transform.position.y);
+
+            // 延迟一段时间后允许再次跳跃（防止空中连跳）
+            Invoke(nameof(EnableJump), 0.2f);
+        }
+
+        private void EnableJump()
+        {
+            canJump = true;
         }
 
         private void OnTriggerEnter2D(Collider2D collision)
@@ -49,7 +89,6 @@ namespace EscapeTheTrenches.Player
             {
                 if (hasWeaponUpgrade)
                 {
-                    // 攻击敌人：销毁敌人并触发攻击效果
                     Destroy(collision.gameObject);
                 }
                 else
@@ -60,13 +99,11 @@ namespace EscapeTheTrenches.Player
             // 收集金币
             else if (collision.CompareTag("Coin"))
             {
-                // 根据 coinMultiplier 计算实际增加的金币数量
                 int addedCoins = Mathf.RoundToInt(1 * coinMultiplier);
                 coinCount += addedCoins;
-                // 此处可添加 UI 更新调用
                 Destroy(collision.gameObject);
             }
-            // 收集道具：存储到道具列表，若已满则直接激活道具效果
+            // 收集道具
             else if (collision.CompareTag("PowerUp"))
             {
                 PowerUp powerUp = collision.GetComponent<PowerUp>();
@@ -75,12 +112,10 @@ namespace EscapeTheTrenches.Player
                     if (storedPowerUps.Count < maxStoredPowerUps)
                     {
                         storedPowerUps.Add(powerUp);
-                        // 隐藏道具物体，等待玩家在 UI 中点击激活
                         powerUp.gameObject.SetActive(false);
                     }
                     else
                     {
-                        // 若道具槽已满，选择直接激活
                         powerUp.Activate();
                         Destroy(collision.gameObject);
                     }
@@ -88,10 +123,6 @@ namespace EscapeTheTrenches.Player
             }
         }
 
-        /// <summary>
-        /// 供 UI 调用：激活存储槽中的道具，并释放槽位
-        /// </summary>
-        /// <param name="index">存储槽索引</param>
         public void ActivateStoredPowerUp(int index)
         {
             if (index >= 0 && index < storedPowerUps.Count)
