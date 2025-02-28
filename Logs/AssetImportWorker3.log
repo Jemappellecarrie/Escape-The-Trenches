@@ -15,7 +15,7 @@ C:/Users/22807/Desktop/Passion Packs of America/25spring/3150/Escape-The-Trenche
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-62476
+64666
 Successfully changed project path to: C:/Users/22807/Desktop/Passion Packs of America/25spring/3150/Escape-The-Trenches
 C:/Users/22807/Desktop/Passion Packs of America/25spring/3150/Escape-The-Trenches
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/22807/Desktop/Passion Packs of America/25spring/3150/Escape-The-Trenche
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [38760]  Target information:
+Player connection [35980]  Target information:
 
-Player connection [38760]  * "[IP] 192.168.0.43 [Port] 0 [Flags] 2 [Guid] 1920162961 [EditorId] 1920162961 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7OO8L3G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [35980]  * "[IP] 10.0.0.75 [Port] 0 [Flags] 2 [Guid] 4095459201 [EditorId] 4095459201 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7OO8L3G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [38760] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [38760] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [35980] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [35980] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 38.53 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 20.46 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.44f1 (c3ae09b9f03c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Resources/UnitySubsystems
@@ -72,44 +72,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010407 seconds.
-- Loaded All Assemblies, in  0.427 seconds
+Registered in 0.009985 seconds.
+- Loaded All Assemblies, in  0.436 seconds
 Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 556 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.235 seconds
-Domain Reload Profiling: 659ms
-	BeginReloadAssembly (164ms)
+- Finished resetting the current domain, in  0.856 seconds
+Domain Reload Profiling: 1288ms
+	BeginReloadAssembly (122ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (73ms)
-	LoadAllAssembliesAndSetupDomain (136ms)
-		LoadAssemblies (160ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (203ms)
+		LoadAssemblies (119ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (134ms)
-			TypeCache.Refresh (131ms)
-				TypeCache.ScanAssembly (117ms)
+		AnalyzeDomain (201ms)
+			TypeCache.Refresh (199ms)
+				TypeCache.ScanAssembly (182ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (235ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (857ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (196ms)
+		SetupLoadedEditorAssemblies (814ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (649ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (134ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (113ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,30 +120,31 @@ Domain Reload Profiling: 659ms
 ========================================================================
 Worker process is ready to serve import requests
 Caller must complete domain reload
-0x00007ff702e0da7d (Unity) StackWalker::GetCurrentCallstack
-0x00007ff702e12b59 (Unity) StackWalker::ShowCallstack
-0x00007ff703e00a11 (Unity) GetStacktrace
-0x00007ff7044bba5e (Unity) DebugStringToFile
-0x00007ff7044bb79a (Unity) AssertImplementation
-0x00007ff703c9e99c (Unity) Internal_ADB_WorkerOnly_DomainReload
-0x00007ff704185074 (Unity) WorkerDomainReloadV2
-0x00007ff7041a5c9f (Unity) <lambda_943be6b2c5671afd01d59371cf3ef730>::operator()
-0x00007ff7041e1a92 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
-0x00007ff7041cda3e (Unity) asio::detail::win_iocp_io_context::do_one
-0x00007ff7041cf66e (Unity) asio::detail::win_iocp_io_context::run
-0x00007ff7041dfe3c (Unity) IOService::Run
-0x00007ff7041b32bf (Unity) AssetImportWorkerClient::Run
-0x00007ff70417ec27 (Unity) RunAssetImportWorkerClientV2
-0x00007ff70417ecab (Unity) RunAssetImporterV2
-0x00007ff70397867e (Unity) Application::InitializeProject
-0x00007ff703e0b6a5 (Unity) WinMain
-0x00007ff7051bd35e (Unity) __scrt_common_main_seh
-0x00007ffe19e8e8d7 (KERNEL32) BaseThreadInitThunk
-0x00007ffe1a97bf2c (ntdll) RtlUserThreadStart
+0x00007ff74200da7d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff742012b59 (Unity) StackWalker::ShowCallstack
+0x00007ff743000a11 (Unity) GetStacktrace
+0x00007ff7436bba5e (Unity) DebugStringToFile
+0x00007ff7436bb79a (Unity) AssertImplementation
+0x00007ff742e9e99c (Unity) Internal_ADB_WorkerOnly_DomainReload
+0x00007ff743385074 (Unity) WorkerDomainReloadV2
+0x00007ff7433a5c9f (Unity) <lambda_943be6b2c5671afd01d59371cf3ef730>::operator()
+0x00007ff7433e1a92 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff7433cda3e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7433cf66e (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff7433dfe3c (Unity) IOService::Run
+0x00007ff7433b32bf (Unity) AssetImportWorkerClient::Run
+0x00007ff74337ec27 (Unity) RunAssetImportWorkerClientV2
+0x00007ff74337ecab (Unity) RunAssetImporterV2
+0x00007ff742b7867e (Unity) Application::InitializeProject
+0x00007ff74300b6a5 (Unity) WinMain
+0x00007ff7443bd35e (Unity) __scrt_common_main_seh
+0x00007ffc72c6e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ffc734bbf2c (ntdll) RtlUserThreadStart
 
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.727 seconds
+- Loaded All Assemblies, in  0.787 seconds
 Native extension for WindowsStandalone target not found
+Native extension for Android target not found
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -149,47 +153,47 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.582 seconds
-Domain Reload Profiling: 1292ms
-	BeginReloadAssembly (148ms)
+- Finished resetting the current domain, in  0.742 seconds
+Domain Reload Profiling: 1523ms
+	BeginReloadAssembly (163ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (483ms)
-		LoadAssemblies (396ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (520ms)
+		LoadAssemblies (405ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (171ms)
-			TypeCache.Refresh (139ms)
-				TypeCache.ScanAssembly (124ms)
-			ScanForSourceGeneratedMonoScriptInfo (25ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (583ms)
+		AnalyzeDomain (209ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (148ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (743ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (455ms)
+		SetupLoadedEditorAssemblies (554ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
+			InitializePlatformSupportModulesInManaged (19ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (74ms)
-			ProcessInitializeOnLoadAttributes (334ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (399ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 9.61 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 21.57 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4501 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 45 unused Assets / (130.7 KB). Loaded Objects now: 4970.
-Memory consumption went from 154.1 MB to 154.0 MB.
-Total: 3.971800 ms (FindLiveObjects: 0.404400 ms CreateObjectMapping: 0.157500 ms MarkObjects: 3.267700 ms  DeleteObjects: 0.141100 ms)
+Unloading 45 unused Assets / (140.2 KB). Loaded Objects now: 4974.
+Memory consumption went from 159.4 MB to 159.3 MB.
+Total: 5.253500 ms (FindLiveObjects: 0.360700 ms CreateObjectMapping: 0.152000 ms MarkObjects: 4.486200 ms  DeleteObjects: 0.253200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -207,589 +211,258 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 360321.420481 seconds.
-  path: Assets/Scripts/UI/UIAssets/fonts/Font2/pixelfont2.ttf
-  artifactKey: Guid(a6dede01cb8e479429b8bc5253a2ad2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI/UIAssets/fonts/Font2/pixelfont2.ttf using Guid(a6dede01cb8e479429b8bc5253a2ad2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 135564.511783 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.IKCCD@256.png
+  artifactKey: Guid(1214a7ec362a4479ba225757639c24f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.IKCCD@256.png using Guid(1214a7ec362a4479ba225757639c24f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2d8cb46399b8738a2eafda61f720de88') in 0.137196 seconds
+ -> (artifact id: '9354d393423fdbb2016869d7583f465b') in 0.141911 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.025514 seconds.
-  path: Packages/com.unity.2d.psdimporter/Editor/Assets/root-blue.mat
-  artifactKey: Guid(28638862ea1084726a3511cd325fc53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/root-blue.mat using Guid(28638862ea1084726a3511cd325fc53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 46.802831 seconds.
+  path: Assets/Scripts/Player/2D Character - Astronaut/Variant D/Sprites/Character/jump/up/06.png
+  artifactKey: Guid(59204c0a9be84d71a1bebb1aae5ad723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant D/Sprites/Character/jump/up/06.png using Guid(59204c0a9be84d71a1bebb1aae5ad723) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'dff35a3db0eaa02f870ba04b7117dee1') in 0.054896 seconds
+ -> (artifact id: '345f82d5d3dbf428feaf7cefa4614d71') in 0.021858 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Packages/com.unity.2d.psdimporter/Editor/Assets/root-green.mat
-  artifactKey: Guid(bc6da4580f5514e458fe5def87e138be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/root-green.mat using Guid(bc6da4580f5514e458fe5def87e138be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c694325a02da9b9f616bae630d3d5ec5') in 0.013082 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Packages/com.unity.2d.psdimporter/Editor/Assets/root-red.mat
-  artifactKey: Guid(4459fff084dd84526ab8fd5082d2eacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/root-red.mat using Guid(4459fff084dd84526ab8fd5082d2eacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd23472e4b5e3710dd44babc06af93482') in 0.014608 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6a4b761647e531bee98c2df9c22274ca') in 0.060732 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 2.669388 seconds.
-  path: Assets/Scripts/UI/UIAssets/prefabs/Gray_black/rounded/background.prefab
-  artifactKey: Guid(58c66169087b95140a6cc11e38fe212f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI/UIAssets/prefabs/Gray_black/rounded/background.prefab using Guid(58c66169087b95140a6cc11e38fe212f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7842d7019d5371cf284470d860be9aba') in 0.009839 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.044569 seconds.
-  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Prefabs/Objects/Block_01.prefab
-  artifactKey: Guid(06a3ab468dd74732871577493d4ca32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Prefabs/Objects/Block_01.prefab using Guid(06a3ab468dd74732871577493d4ca32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '83f774ebdf27bae2cefdb2bc9ebd1829') in 0.020057 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_throw_down.prefab
-  artifactKey: Guid(49e9a140ce8f46e7a11bf5447fba2905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_throw_down.prefab using Guid(49e9a140ce8f46e7a11bf5447fba2905) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '78d5e56aa2f099bbf006cde976458554') in 0.031639 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 55
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/bomb_hold_down.prefab
-  artifactKey: Guid(520735be657740edad1432be9ac2c59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/bomb_hold_down.prefab using Guid(520735be657740edad1432be9ac2c59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1e115a7bdbc22c484d7b6f5bb20c26a3') in 0.047020 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 101
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_hold_up.prefab
-  artifactKey: Guid(47e4f348c4894fe095feeb5f85de1d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_hold_up.prefab using Guid(47e4f348c4894fe095feeb5f85de1d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2f9a6364b847a6ea27cd55e8a082e985') in 0.044322 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 101
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_throw_up.prefab
-  artifactKey: Guid(da4551d8f4b64d2eac925befe56b930c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_throw_up.prefab using Guid(da4551d8f4b64d2eac925befe56b930c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8de86bdbd483426738e9d1c6cf30447a') in 0.026239 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 55
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Prefabs/Character/bomb_throw_side.prefab
-  artifactKey: Guid(5af452213d5a4abe9e3a0ddf6ba38030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Prefabs/Character/bomb_throw_side.prefab using Guid(5af452213d5a4abe9e3a0ddf6ba38030) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'efea7886049b285168b856f54f0836b0') in 0.027819 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 55
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Prefabs/Character/bomb_throw_side.prefab
-  artifactKey: Guid(8b7b2bb971454073b46edf88dfe5c4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Prefabs/Character/bomb_throw_side.prefab using Guid(8b7b2bb971454073b46edf88dfe5c4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '760f1070a93fb0367557e28dae57631b') in 0.032706 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 55
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_hold_side.prefab
-  artifactKey: Guid(ad42606c98304ea59672bb888cd08556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Prefabs/Character/bomb_hold_side.prefab using Guid(ad42606c98304ea59672bb888cd08556) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ec6550ada2d49433075ff1d308e4e87e') in 0.063703 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 151
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Prefabs/Objects/Block_01.prefab
-  artifactKey: Guid(e11291ee19744b96b825451f3eb36151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Prefabs/Objects/Block_01.prefab using Guid(e11291ee19744b96b825451f3eb36151) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '20a84b4a35d321b42e4201913eb81835') in 0.012585 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Prefabs/Character/bomb_hold_up.prefab
-  artifactKey: Guid(0afab79d339a4cedad526709a9321acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Prefabs/Character/bomb_hold_up.prefab using Guid(0afab79d339a4cedad526709a9321acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7e5d4bdbaedb7b64ddb5f40406b1f6e9') in 0.042713 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 101
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Prefabs/Character/bomb_hold_up.prefab
-  artifactKey: Guid(cba9f95649c74af5a2a52aeda324cee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Prefabs/Character/bomb_hold_up.prefab using Guid(cba9f95649c74af5a2a52aeda324cee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8ef27ebc6d40695393a2c1bf28498bc0') in 0.039410 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 101
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Prefabs/Character/bomb_hold_side.prefab
-  artifactKey: Guid(ab1b8ff758de48a6a317f51d83356f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Prefabs/Character/bomb_hold_side.prefab using Guid(ab1b8ff758de48a6a317f51d83356f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c0ca95eed494318b5ccb4749ead74cb1') in 0.049024 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 151
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Scripts/UI/UIAssets/prefabs/Half_color_customizible/rounded/backgroundHalfCustom.prefab
-  artifactKey: Guid(155580ad0a717fc4799c95831dcf3032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI/UIAssets/prefabs/Half_color_customizible/rounded/backgroundHalfCustom.prefab using Guid(155580ad0a717fc4799c95831dcf3032) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c61da1f3988fbcf972dd157ff04151f7') in 0.004517 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Prefabs/Character/bomb_throw_up.prefab
-  artifactKey: Guid(1b330253a7774db8911050edbd9d012f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Prefabs/Character/bomb_throw_up.prefab using Guid(1b330253a7774db8911050edbd9d012f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '238451cb251dcf0d96fc9b6d0bb4a50d') in 0.026031 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 55
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Prefabs/Character/bomb_throw_side.prefab
-  artifactKey: Guid(381f0d7d0bf34f70a0c01318dcc286c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Prefabs/Character/bomb_throw_side.prefab using Guid(381f0d7d0bf34f70a0c01318dcc286c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a0d919bb08af164e2acf212c5bd35d42') in 0.027858 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 55
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Prefabs/Character/bomb_hold_side.prefab
-  artifactKey: Guid(c19f491ecf224eda94554991fca5815c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Prefabs/Character/bomb_hold_side.prefab using Guid(c19f491ecf224eda94554991fca5815c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '82161a1dfd65581ca96723f7a1efe939') in 0.053149 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 151
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/bomb_throw_side.prefab
-  artifactKey: Guid(d84f9b6fbaa547e7aea23ee26301bcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/bomb_throw_side.prefab using Guid(d84f9b6fbaa547e7aea23ee26301bcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c763c4935dcdc0c51e6e3219decb0958') in 0.025259 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 55
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Prefabs/Character/bomb_hold_down.prefab
-  artifactKey: Guid(56543a4ee64c42c1938c03db90e89b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Prefabs/Character/bomb_hold_down.prefab using Guid(56543a4ee64c42c1938c03db90e89b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7f5d15138e4f506eb53fc611f86a40ff') in 0.037200 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 101
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Scripts/UI/UIAssets/prefabs/color_customizible/square/backgroundCustom.prefab
-  artifactKey: Guid(fb6cfc9171539094c861db9f69f8ef93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI/UIAssets/prefabs/color_customizible/square/backgroundCustom.prefab using Guid(fb6cfc9171539094c861db9f69f8ef93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a50e7a1a54238f46e86cf143de43ee99') in 0.003992 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/bomb_hold_side.prefab
-  artifactKey: Guid(a50017381d68405baca692442d73a9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/bomb_hold_side.prefab using Guid(a50017381d68405baca692442d73a9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'aa503c39e2e4545b15f95f59d0b8b77f') in 0.048057 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 151
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Prefabs/Objects/bomb_explosion.prefab
-  artifactKey: Guid(d207face68364d98af63c56b14162e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Prefabs/Objects/bomb_explosion.prefab using Guid(d207face68364d98af63c56b14162e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f2754bf540cdca79d840846cc674eae9') in 0.032688 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 73
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Prefabs/Character/bomb_throw_down.prefab
-  artifactKey: Guid(3e87c6ffe6b94322ad4196308fa260b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Prefabs/Character/bomb_throw_down.prefab using Guid(3e87c6ffe6b94322ad4196308fa260b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e3d8ae3a2e45591b4d07128b01340f19') in 0.025935 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 55
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/Scripts/UI/UIAssets/prefabs/Half_color_customizible/square/backgroundHalfCustom.prefab
-  artifactKey: Guid(34a5085941dd5244ea00b4973da6826c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI/UIAssets/prefabs/Half_color_customizible/square/backgroundHalfCustom.prefab using Guid(34a5085941dd5244ea00b4973da6826c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '04ba43b6af7bb0fa963425f0505a84c4') in 0.004247 seconds
+  path: Assets/Scripts/Player/2D Character - Astronaut/Variant D/Sprites/Character/jump/up/16.png
+  artifactKey: Guid(9ce734260c804be58da3ca2e3fca2fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant D/Sprites/Character/jump/up/16.png using Guid(9ce734260c804be58da3ca2e3fca2fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '925a1920a34c7ce95096d07988b6ff77') in 0.034979 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/Player/2D Character - Astronaut/Variant D/Sprites/Character/jump/up/10.png
+  artifactKey: Guid(72a1cde4921d450fb87b791ca4943a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant D/Sprites/Character/jump/up/10.png using Guid(72a1cde4921d450fb87b791ca4943a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ea7e13105c2ea6bfeb648b7605aaad03') in 0.026699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 192.667495 seconds.
+  path: Assets/Scripts/Obstacles/obstacle.png
+  artifactKey: Guid(f83b9f4f110946343810fef2760d62c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Obstacles/obstacle.png using Guid(f83b9f4f110946343810fef2760d62c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '35e309b1ea049270ddd213be75dc8e9d') in 0.043852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 212.876678 seconds.
+  path: Assets/Scenes/backgroundasset.jpg
+  artifactKey: Guid(1741c7f5090dd804ea582e932db60004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/backgroundasset.jpg using Guid(1741c7f5090dd804ea582e932db60004) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cbfc2f9ad60b230498b6b98f4ce9add0') in 0.042608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 541.436004 seconds.
+  path: Assets/Scenes/wall2.png
+  artifactKey: Guid(922621ed603d9f248bf796cb2e40a4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/wall2.png using Guid(922621ed603d9f248bf796cb2e40a4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f95fb7bf3c4244ba2edebfb8c105a14e') in 0.023523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 230.938332 seconds.
+  path: Assets/Scripts/UI/UIAssets
+  artifactKey: Guid(c1a4b71fbfe043b48b40c4185e04bc9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/UIAssets using Guid(c1a4b71fbfe043b48b40c4185e04bc9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '86492ac49d3430d4cec8bd5b18f52182') in 0.001119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.706005 seconds.
+  path: Assets/Scripts/UI/UIAssets/artwork
+  artifactKey: Guid(225de32f8fed06f4ca6486d89d08abe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/UIAssets/artwork using Guid(225de32f8fed06f4ca6486d89d08abe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b933c9e986541e314741145f8b70afe2') in 0.000777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.454011 seconds.
+  path: Assets/Scripts/UI/UIAssets/artwork/icons
+  artifactKey: Guid(235e3d33a6b406b489b4b3abb63fa270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/UIAssets/artwork/icons using Guid(235e3d33a6b406b489b4b3abb63fa270) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6a44453b8a8e50a362a6bf30cb26ade4') in 0.000679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.040121 seconds.
+  path: Assets/Scripts/UI/UIAssets/artwork/icons/icons_color_customizible.png
+  artifactKey: Guid(2a01691a87fedbe4aa6de6f1c0c0f3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/UIAssets/artwork/icons/icons_color_customizible.png using Guid(2a01691a87fedbe4aa6de6f1c0c0f3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8097277174df5393ae2e3d0a3ee07790') in 0.105605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Objects/Block_01.prefab
-  artifactKey: Guid(ba9e7b85b1bc400899578d3d4af1bf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Objects/Block_01.prefab using Guid(ba9e7b85b1bc400899578d3d4af1bf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  path: Assets/Scripts/UI/UIAssets/artwork/icons/locked.png
+  artifactKey: Guid(6fb8719ffeb4cf0478c7a8d436d3a191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/UIAssets/artwork/icons/locked.png using Guid(6fb8719ffeb4cf0478c7a8d436d3a191) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b139cbe4422ec811b8cd12f1dc115a12') in 0.011628 seconds
+ -> (artifact id: 'be107493d57d8a094bcbef15d1d61420') in 0.015148 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 103.935042 seconds.
-  path: Assets/COPY SPRIGHT/Comic Battle Royale
-  artifactKey: Guid(732e1d9eae9f9ed459430af01b5ee3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/Comic Battle Royale using Guid(732e1d9eae9f9ed459430af01b5ee3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '88b545e9edbaa73d3bb6ba6776c46f9f') in 0.001101 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.249106 seconds.
-  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut
-  artifactKey: Guid(5087a08e91344de8b64609eb1abe0434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut using Guid(5087a08e91344de8b64609eb1abe0434) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f07ab936f6033b2818e00fb0d5846fdc') in 0.000841 seconds
+  Time since last request: 36.402474 seconds.
+  path: Assets/Scripts/UI/UIAssets/artwork/colorCustomizible
+  artifactKey: Guid(a28442795d3458b49a9b4c24c1f84af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/UIAssets/artwork/colorCustomizible using Guid(a28442795d3458b49a9b4c24c1f84af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4c520a4286d5166895cb0c3657f0bf46') in 0.000769 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 73.644774 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/Variant A
-  artifactKey: Guid(90f694900ee04d2f9df6fc6360b37fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant A using Guid(90f694900ee04d2f9df6fc6360b37fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '19bfab60ceec5c99a5d8bfb110597486') in 0.000615 seconds
+  Time since last request: 0.775548 seconds.
+  path: Assets/Scripts/UI/UIAssets/artwork/colorCustomizible/rounded
+  artifactKey: Guid(a149011ad80bea04e8233471eb6fb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/UIAssets/artwork/colorCustomizible/rounded using Guid(a149011ad80bea04e8233471eb6fb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a33aa1ed61c559b3f3c59c66c7fe3422') in 0.000669 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 2.524021 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/Variant A/Animations
-  artifactKey: Guid(6ac4cc8d1d8b4454bb0c3042973bd293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant A/Animations using Guid(6ac4cc8d1d8b4454bb0c3042973bd293) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '21747bfa011a6d37fd8ae42912975a44') in 0.000605 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.691035 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/Variant A/Animations/bomb_throw_down.anim
-  artifactKey: Guid(6f274f6413ee4abfa28b36d0793fa247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant A/Animations/bomb_throw_down.anim using Guid(6f274f6413ee4abfa28b36d0793fa247) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '10f89ee2039c57d2e89c69aab77463f9') in 0.001612 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 20.933413 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/bombthrowdown
-  artifactKey: Guid(90f694900ee04d2f9df6fc6360b37fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/bombthrowdown using Guid(90f694900ee04d2f9df6fc6360b37fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1984f83ed7f5b0aaaaed87b0d8346308') in 0.000685 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.341397 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/Variant B
-  artifactKey: Guid(58aab80ca3b5489d8dbb7a322683cfe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant B using Guid(58aab80ca3b5489d8dbb7a322683cfe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f4423fe4e417df1e254bebc3164dc291') in 0.000623 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.330993 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/Variant B/Animations
-  artifactKey: Guid(956f3c4faf6f45be9753110f773bd54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant B/Animations using Guid(956f3c4faf6f45be9753110f773bd54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '5aa6d217c3cebb6e4eb49429098d7e9e') in 0.000622 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.711416 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/Variant B/Animations/bomb_hold_down.controller
-  artifactKey: Guid(cd90baebfa014813806bf440e57f405a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant B/Animations/bomb_hold_down.controller using Guid(cd90baebfa014813806bf440e57f405a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '11697acbc8493b3f53c4b051f5affb6e') in 0.002050 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 12.308328 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/bombholddown
-  artifactKey: Guid(58aab80ca3b5489d8dbb7a322683cfe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/bombholddown using Guid(58aab80ca3b5489d8dbb7a322683cfe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '54f57b258c9fa8fabe56e76e5d2628ef') in 0.000593 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.438832 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/Variant C
-  artifactKey: Guid(992b8c5296904be8a57cc47fce89b4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant C using Guid(992b8c5296904be8a57cc47fce89b4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '93102c2cbaf5a3150f6482498c299c62') in 0.001509 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.622655 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/Variant C/Sprites
-  artifactKey: Guid(ed5f173d64f7480dab11939b0b19cb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant C/Sprites using Guid(ed5f173d64f7480dab11939b0b19cb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7dbdd60113d28e7f2fdfc358dd3a5858') in 0.000759 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.659267 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/Variant C/Sprites/Character
-  artifactKey: Guid(18f1c874b4e64537ad58b67239169df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant C/Sprites/Character using Guid(18f1c874b4e64537ad58b67239169df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8d0e3f4d077f8b219b1ec4b70caab219') in 0.000773 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 9.763005 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/Variant C/Animations
-  artifactKey: Guid(8aa80d89ee5145a3a53cca32583fbc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant C/Animations using Guid(8aa80d89ee5145a3a53cca32583fbc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ced68917ed9abeedd28d3c90eb66625f') in 0.000634 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.178557 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/Variant C/Animations/bomb_hold_down.anim
-  artifactKey: Guid(b2608b36e1524619b23e0cd6651586a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant C/Animations/bomb_hold_down.anim using Guid(b2608b36e1524619b23e0cd6651586a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '19a316b26587fc6c0a5abc1baf1d387c') in 0.001458 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.383706 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/Variant C/Animations/bomb_hold_side-overlay.anim
-  artifactKey: Guid(b72942b73b4341f198736cf1a4f7d72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant C/Animations/bomb_hold_side-overlay.anim using Guid(b72942b73b4341f198736cf1a4f7d72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a3eab75f21bdb4808ff2dcfb18a72ce2') in 0.001639 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 3.020304 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/Variant C/Animations/bomb_walk_down.anim
-  artifactKey: Guid(c323f0cf29fc411191b739d78169ccf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant C/Animations/bomb_walk_down.anim using Guid(c323f0cf29fc411191b739d78169ccf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '42ceb37395b86aa5ca01a7e1ab29c19e') in 0.001669 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.599557 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/Variant C/Animations/crawl_down.controller
-  artifactKey: Guid(7dc6f468842a4a0a9f3ff30031a04b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant C/Animations/crawl_down.controller using Guid(7dc6f468842a4a0a9f3ff30031a04b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '05e3b4d7159b4ed36ae9e3d1abc08637') in 0.001944 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 34.340723 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/Variant D
-  artifactKey: Guid(12b113e883fb428987f1f053adcdb09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant D using Guid(12b113e883fb428987f1f053adcdb09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8670c06fc3b9bdfe0c4bb6f369518535') in 0.000649 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.347025 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/Variant D/Animations
-  artifactKey: Guid(64a9c90c0d6a4d35b4aadfed36316b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant D/Animations using Guid(64a9c90c0d6a4d35b4aadfed36316b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'eace955ce3b20cf47eeffd69802c7d8a') in 0.000790 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 16.777088 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/Variant E
-  artifactKey: Guid(642d009b70d54b659538f020ba2176df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant E using Guid(642d009b70d54b659538f020ba2176df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '23391c1183dd1b54c51ac7f02ff90e33') in 0.000880 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.143444 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/Variant E/Sprites
-  artifactKey: Guid(436432979df947c095a88dbdf9e3d78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant E/Sprites using Guid(436432979df947c095a88dbdf9e3d78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '17fc5d0ee5c42b84c446a3861aca45f6') in 0.000944 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.595603 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/Variant E/Sprites/General
-  artifactKey: Guid(9e143a7216314b66b77b11c8450ce01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant E/Sprites/General using Guid(9e143a7216314b66b77b11c8450ce01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8ded493e14b040b204bde6c2a1731d36') in 0.000662 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 9.833087 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/Variant E/Prefabs/Character/jump_down.prefab
-  artifactKey: Guid(079ed8da281a45a8aa96537f3f58007c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant E/Prefabs/Character/jump_down.prefab using Guid(079ed8da281a45a8aa96537f3f58007c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.143379 seconds.
+  path: Assets/Scripts/UI/UIAssets/artwork/colorCustomizible/rounded/Background_CC_rounded.png
+  artifactKey: Guid(8117ad03e7d28324f97b6eddfdcd1e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/UIAssets/artwork/colorCustomizible/rounded/Background_CC_rounded.png using Guid(8117ad03e7d28324f97b6eddfdcd1e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2759dd261733855ff00a3e1e251fb5a1') in 0.052350 seconds
+ -> (artifact id: '41dc0990b8d3a9d3157ff756424cd52e') in 0.013675 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 53
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.024752 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/Variant A/Prefabs/Character/jump_down.prefab
-  artifactKey: Guid(6a4aad03b07243e9ba5cd243de0e4c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant A/Prefabs/Character/jump_down.prefab using Guid(6a4aad03b07243e9ba5cd243de0e4c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.045828 seconds.
+  path: Assets/Scripts/UI/UIAssets/artwork/colorCustomizible/rounded/border_Rounded_CC.png
+  artifactKey: Guid(ff24c02cb4cb49e4785ad1a46df6a6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/UIAssets/artwork/colorCustomizible/rounded/border_Rounded_CC.png using Guid(ff24c02cb4cb49e4785ad1a46df6a6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '69cb758e64ab3a967f2eca91e587f5e3') in 0.033387 seconds
+ -> (artifact id: 'b11263d13c95e38dcc3061f631e122e9') in 0.019075 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 53
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.019270 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/Variant C/Prefabs/Character/jump_down.prefab
-  artifactKey: Guid(427db7ccbedb45e68a01622d1ffba3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant C/Prefabs/Character/jump_down.prefab using Guid(427db7ccbedb45e68a01622d1ffba3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/UI/UIAssets/artwork/colorCustomizible/rounded/Slot_rounded_CC.png
+  artifactKey: Guid(15a522d0e2dce05478bf9edcacc4297e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/UIAssets/artwork/colorCustomizible/rounded/Slot_rounded_CC.png using Guid(15a522d0e2dce05478bf9edcacc4297e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b0d521553fb27804dab24b4604d73f0f') in 0.032974 seconds
+ -> (artifact id: 'b59eee6034918f4dc2af5dbfc1c15fce') in 0.014837 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 53
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.023020 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/Variant B/Prefabs/Character/jump_side.prefab
-  artifactKey: Guid(11fe660491d54140bacc5b74251b4763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant B/Prefabs/Character/jump_side.prefab using Guid(11fe660491d54140bacc5b74251b4763) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'af84b5c34e362aa446d0a67724417574') in 0.035568 seconds
+  Time since last request: 4.100109 seconds.
+  path: Assets/Scripts/UI/UIAssets/artwork/colorCustomizible/rounded/buttons
+  artifactKey: Guid(53f838e5818bfe54db4332fe8f0c9b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/UIAssets/artwork/colorCustomizible/rounded/buttons using Guid(53f838e5818bfe54db4332fe8f0c9b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f88987d97c1348e57d02660cb051b049') in 0.000782 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 53
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/Variant E/Prefabs/Character/jump_up.prefab
-  artifactKey: Guid(9c9d516d7fbb47c5ac0291977bb7074b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant E/Prefabs/Character/jump_up.prefab using Guid(9c9d516d7fbb47c5ac0291977bb7074b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.063432 seconds.
+  path: Assets/Scripts/UI/UIAssets/artwork/colorCustomizible/rounded/buttons/button2_rounded_CC.png
+  artifactKey: Guid(145f9f42fbe978947a25b213c84e7c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/UIAssets/artwork/colorCustomizible/rounded/buttons/button2_rounded_CC.png using Guid(145f9f42fbe978947a25b213c84e7c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '211670be3e3f4a37dcdba57e0c4674d8') in 0.038481 seconds
+ -> (artifact id: 'eb5a9e06af2faf5c23a579d43ee60ef1') in 0.014622 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 53
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/Variant C/Prefabs/Character/jump_side.prefab
-  artifactKey: Guid(693ddf4919b14632a8f415ab7c1d1f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant C/Prefabs/Character/jump_side.prefab using Guid(693ddf4919b14632a8f415ab7c1d1f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 30.510904 seconds.
+  path: Assets/Scripts/UI/UIAssets/artwork/halfcustomizible/rounded/bar_rounded_HCC_horizontal.png
+  artifactKey: Guid(e46cac61e2e0ffd4eacf4576c5d901ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/UIAssets/artwork/halfcustomizible/rounded/bar_rounded_HCC_horizontal.png using Guid(e46cac61e2e0ffd4eacf4576c5d901ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '769a5197a3ebc9eb8b3b22130eeb688c') in 0.035121 seconds
+ -> (artifact id: '30b89319750a13278df35c23ed9694f0') in 0.011565 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 53
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/Variant C/Prefabs/Character/jump_up.prefab
-  artifactKey: Guid(d5c4b11c363a4202884de153687a352e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant C/Prefabs/Character/jump_up.prefab using Guid(d5c4b11c363a4202884de153687a352e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.059186 seconds.
+  path: Assets/Scripts/UI/UIAssets/artwork/halfcustomizible/rounded/Slot3D_rounded_HCC.png
+  artifactKey: Guid(e9f6aafb7c1ac98418d3b3877065d261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/UIAssets/artwork/halfcustomizible/rounded/Slot3D_rounded_HCC.png using Guid(e9f6aafb7c1ac98418d3b3877065d261) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2b8a1545764e36a576e6fd48363719d8') in 0.034465 seconds
+ -> (artifact id: '4efd37d5bb63e1cbf8d8d0550f82e219') in 0.019213 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 53
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Scripts/Player/2D Character - Astronaut/Variant E/Prefabs/Character/jump_side.prefab
-  artifactKey: Guid(a235ff5af3424a288e3ea1e8ed557f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/2D Character - Astronaut/Variant E/Prefabs/Character/jump_side.prefab using Guid(a235ff5af3424a288e3ea1e8ed557f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 52.108026 seconds.
+  path: Assets/Scripts/UI/UIAssets/artwork/halfcustomizible/rounded/buttons/button_rounded_HCC.png
+  artifactKey: Guid(14858d71a730b4943b11f958bd10ae50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/UIAssets/artwork/halfcustomizible/rounded/buttons/button_rounded_HCC.png using Guid(14858d71a730b4943b11f958bd10ae50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ee1d416dd0010f7cf2aee4068a49eeff') in 0.034206 seconds
+ -> (artifact id: '99c612c854f9c030290b5a5ab546353b') in 0.016117 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 53
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 119.199391 seconds.
+  path: Assets/Scripts/UI/UIAssets/artwork/colorCustomizible/square/border.png
+  artifactKey: Guid(89c89d31cbb023d4a87840ff06fe110e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/UIAssets/artwork/colorCustomizible/square/border.png using Guid(89c89d31cbb023d4a87840ff06fe110e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '03da3b6f44847415a0ce067a6af86c85') in 0.011714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.045846 seconds.
+  path: Assets/Scripts/UI/UIAssets/artwork/colorCustomizible/square/slot.png
+  artifactKey: Guid(4a7e5d2419d92754da4c0f6996f2e419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/UIAssets/artwork/colorCustomizible/square/slot.png using Guid(4a7e5d2419d92754da4c0f6996f2e419) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fb34e31f38ccdcd5f4cdc39e98546e43') in 0.020679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/UI/UIAssets/artwork/colorCustomizible/square/health_bar.png
+  artifactKey: Guid(82306ec1555e74d41b5fc97d5e09f8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/UIAssets/artwork/colorCustomizible/square/health_bar.png using Guid(82306ec1555e74d41b5fc97d5e09f8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '70b437140c81ae054a19aafde1718179') in 0.014751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 19.242500 seconds.
+  path: Assets/Scripts/UI/UIAssets/artwork/colorCustomizible/square/Buttons/button_small_1.png
+  artifactKey: Guid(214e42740cbf6c1448b1f08fb3e30a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/UIAssets/artwork/colorCustomizible/square/Buttons/button_small_1.png using Guid(214e42740cbf6c1448b1f08fb3e30a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '80c602cb131cb7523b43da188df0eca9') in 0.014586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
 AssetImportWorker is now disconnected from the server
