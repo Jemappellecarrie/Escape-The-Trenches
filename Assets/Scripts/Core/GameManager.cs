@@ -7,11 +7,6 @@ namespace EscapeTheTrenches.Core
     {
         public static GameManager Instance { get; private set; }
 
-        //new static instance
-        //public static GameManager Instance;
-
-
-
         public enum GameState { MainMenu, Playing, GameOver, Paused, AwaitingRecharge }
         public GameState CurrentState { get; private set; }
 
@@ -36,7 +31,6 @@ namespace EscapeTheTrenches.Core
             if (Instance == null)
             {
                 Instance = this;
-                Debug.Log("called instance set");
                 DontDestroyOnLoad(gameObject);
                 AttemptsRemaining = MaxAttempts;
             }
