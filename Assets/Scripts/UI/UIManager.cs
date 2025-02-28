@@ -13,6 +13,8 @@ namespace EscapeTheTrenches.UI
         // 货币化选项面板（GameOver 时显示）
         public GameObject monetizationPanel;
 
+        [SerializeField] private GameManager _manager;
+
         // 分数、金币和尝试次数的 UI 文本
         public Text scoreText;
         public Text coinText;
@@ -23,16 +25,16 @@ namespace EscapeTheTrenches.UI
 
         private void OnEnable()
         {
-            GameManager.Instance.OnGameStateChanged += HandleGameStateChanged;
-            GameManager.Instance.OnAttemptsChanged += UpdateAttemptsUI;
-            GameManager.Instance.OnGameOver += HandleGameOver;
+            _manager.OnGameStateChanged += HandleGameStateChanged;
+            _manager.OnAttemptsChanged += UpdateAttemptsUI;
+            _manager.OnGameOver += HandleGameOver;
         }
 
         private void OnDisable()
         {
-            GameManager.Instance.OnGameStateChanged -= HandleGameStateChanged;
-            GameManager.Instance.OnAttemptsChanged -= UpdateAttemptsUI;
-            GameManager.Instance.OnGameOver -= HandleGameOver;
+            _manager.OnGameStateChanged -= HandleGameStateChanged;
+            _manager.OnAttemptsChanged -= UpdateAttemptsUI;
+            _manager.OnGameOver -= HandleGameOver;
         }
 
         /// <summary>

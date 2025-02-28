@@ -391,8 +391,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obstaclePrefabs:
   - {fileID: 159339516}
-  - {fileID: 0}
-  - {fileID: 0}
   spawnPoint: {fileID: 46235952}
   baseSpawnRate: 2
   minSpawnRate: 0.5
@@ -1337,6 +1335,7 @@ MonoBehaviour:
   gameOverPanel: {fileID: 2042261625}
   playingPanel: {fileID: 1873746834}
   monetizationPanel: {fileID: 34982814}
+  _manager: {fileID: 1779092426}
   scoreText: {fileID: 490933179}
   coinText: {fileID: 1894637725}
   attemptsText: {fileID: 1174141599}
@@ -2331,7 +2330,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bef0f3301ca5ce40b0726597ba57f6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  climbSpeed: 3
   jumpForce: 10
+  jumpDistance: 2.5
+  isOnLeftWall: 1
   coinCount: 0
   maxStoredPowerUps: 3
   hasWeaponUpgrade: 0
@@ -2556,12 +2558,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainMenuPanel: {fileID: 1503257940}
-  gameOverPanel: {fileID: 0}
-  playingPanel: {fileID: 0}
-  monetizationPanel: {fileID: 0}
-  scoreText: {fileID: 0}
-  coinText: {fileID: 0}
-  attemptsText: {fileID: 0}
+  gameOverPanel: {fileID: 2042261625}
+  playingPanel: {fileID: 1873746834}
+  monetizationPanel: {fileID: 1115950385}
+  _manager: {fileID: 1779092426}
+  scoreText: {fileID: 490933179}
+  coinText: {fileID: 1894637725}
+  attemptsText: {fileID: 1174141599}
 --- !u!1 &1719708356
 GameObject:
   m_ObjectHideFlags: 0
