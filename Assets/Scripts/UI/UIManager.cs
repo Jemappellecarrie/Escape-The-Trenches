@@ -13,6 +13,8 @@ namespace EscapeTheTrenches.UI
         // 货币化选项面板（GameOver 时显示）
         public GameObject monetizationPanel;
 
+        [SerializeField] private GameManager _manager;
+
         // 分数、金币和尝试次数的 UI 文本
         public Text scoreText;
         public Text coinText;
@@ -23,16 +25,16 @@ namespace EscapeTheTrenches.UI
 
         private void OnEnable()
         {
-            GameManager.Instance.OnGameStateChanged += HandleGameStateChanged;
-            GameManager.Instance.OnAttemptsChanged += UpdateAttemptsUI;
-            GameManager.Instance.OnGameOver += HandleGameOver;
+            _manager.OnGameStateChanged += HandleGameStateChanged;
+            _manager.OnAttemptsChanged += UpdateAttemptsUI;
+            _manager.OnGameOver += HandleGameOver;
         }
 
         private void OnDisable()
         {
-            GameManager.Instance.OnGameStateChanged -= HandleGameStateChanged;
-            GameManager.Instance.OnAttemptsChanged -= UpdateAttemptsUI;
-            GameManager.Instance.OnGameOver -= HandleGameOver;
+            _manager.OnGameStateChanged -= HandleGameStateChanged;
+            _manager.OnAttemptsChanged -= UpdateAttemptsUI;
+            _manager.OnGameOver -= HandleGameOver;
         }
 
         /// <summary>
@@ -41,8 +43,11 @@ namespace EscapeTheTrenches.UI
         /// <param name="newState">当前游戏状态</param>
         private void HandleGameStateChanged(GameManager.GameState newState)
         {
+            Debug.Log("new state called");
+
             switch (newState)
             {
+                
                 case GameManager.GameState.MainMenu:
                     mainMenuPanel.SetActive(true);
                     gameOverPanel.SetActive(false);
@@ -50,6 +55,7 @@ namespace EscapeTheTrenches.UI
                     if (monetizationPanel != null)
                         monetizationPanel.SetActive(false);
                     break;
+                   
                 case GameManager.GameState.Playing:
                     mainMenuPanel.SetActive(false);
                     gameOverPanel.SetActive(false);
@@ -73,7 +79,9 @@ namespace EscapeTheTrenches.UI
                     if (monetizationPanel != null)
                         monetizationPanel.SetActive(false);
                     break;
+
             }
+                   
         }
 
         /// <summary>
