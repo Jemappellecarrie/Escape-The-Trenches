@@ -1,0 +1,4608 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <limits>
+
+
+template <typename R>
+struct InterfaceFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct GUILayoutOptionU5BU5D_t24AB80AB9355D784F2C65E12A4D0CC2E0C914CA2;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct CinemachinePixelPerfect_tE6CCF3C73CBDD7F9723CCC8A7D72FAB5AD7657D7;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct GUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14;
+struct IPixelPerfectCamera_tB4C3F4D97915BC1D1D31D68788C8F4290B94A987;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9;
+struct PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE;
+struct RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27;
+struct String_t;
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700;
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t0C275585D2E63B9638E5C799091C73FF74B30CD5;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
+
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_CoreModule[];
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_2D_PixelPerfect[];
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IPixelPerfectCamera_tB4C3F4D97915BC1D1D31D68788C8F4290B94A987_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t39B215207DCDFB3656BE676BB350E2626B3C2C84____47D6D5CB9C1516368F4D48F31165E2EB9D04D22FB9375302B8133DD308A02429_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t39B215207DCDFB3656BE676BB350E2626B3C2C84____B6802E875EB7B71B2695090BC5E6AC9DCD3843EB0E6BF7C21CFB45D12D167F67_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral69D2BC13326043EFBE8498680B311F3B34E06698;
+IL2CPP_EXTERN_C String_t* _stringLiteral6B44A7675031FCAC57E28AD1002F65360C76AFF2;
+IL2CPP_EXTERN_C String_t* _stringLiteral6E3C394542AFDC0953291817DE5BAA9A9329CF27;
+IL2CPP_EXTERN_C String_t* _stringLiteralDE99B9E7BE86471C3F4C7B45CBB12E54FC2E800F;
+IL2CPP_EXTERN_C String_t* _stringLiteralE037EE9DA619F0B70848CAC7A20087491D3E123F;
+IL2CPP_EXTERN_C const RuntimeMethod* Array_Empty_TisGUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14_mC7F345AC4C0CA86560FAA00174268F70FBBE577F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CinemachinePixelPerfect_OnEnable_m8F61B251CA3256600FAA6C2AC09CE2F38906122A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CinemachinePixelPerfect__ctor_m62B0EA6CEF2A6B8F810E3202E5EFA351ADDD486A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color_get_black_mB50217951591A045844C61E7FF31EEE3FEF16737_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCameraInternal_CalculateCameraProperties_m0C1A9F48317FBD0710DCEF29FB7D4B7ECEADE4F7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCameraInternal_CalculatePostRenderPixelRect_mC41F2F6B554C0E28AB9344868E3B887118221B39_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCameraInternal_CorrectCinemachineOrthoSize_mCD4C1B0EBDC7FBDE0A17AA8BE4F5EC1ABD574CED_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCameraInternal_OnAfterDeserialize_mDACB77CE1C48E71D52E67812D687FAC6D900C259_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCameraInternal_OnBeforeSerialize_m619B674B64C11A49C5CFC75F7E1CE5C4E2E7F89F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCameraInternal__ctor_m9BA2244B557EA69E48A85D9C66B7C99C45A4C0F5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_Awake_m1361D5EF172AC03007B5846A243A1BE11521A06F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_CorrectCinemachineOrthoSize_m954071ACDDE4E77D706BE79EB8C2562BE55CADCD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_LateUpdate_m1D2BF8FDBE43306DED2AFE6F66CEE593958A8548_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_OnDisable_m7338FD1B80302BBE823F88744B11F8B0169857A6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_OnEnable_m38F3E385ECADF00606C9E3C602188C93E6A17EB2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_OnGUI_m4AC740BB982B08D2C63F428B9638FC9B2BC4664A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_OnPostRender_m9BC0CE38B0F281C31DADDB7097ECC1E95D83CC25_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_OnPreCull_mA9E75392FDDD3D52271F8C75F7A50278E85B4037_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_OnPreRender_m0DF9E768A68EEF80ABB6951FD1E0AFF893916FBA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_PixelSnap_m260BC623D3DB1F4687F20AC085C68B4D930ABB21_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_RoundToPixel_mF2C9FEBE8BEAEBF8A347E1B2747C9BFDD2778592_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera__ctor_mD0A0A89A62DDE239CD452527B084826C38349C65_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_get_assetsPPU_m7236DCB6650FD2F31B83FBE71FAA1C57F8E5CD82_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_get_cropFrameX_m445326A62051D6C2C290F38DC3C4E2E97043023B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_get_cropFrameY_m2C0CCE1A3BA3186C72DC06BD7B7741B2C1D98D90_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_get_pixelRatio_mD04D1FBE58D9266C9CB354DDC8911CDD69C2263F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_get_pixelSnapping_mE1669328218DFA6F55A7E94BB39C77EBDC8A7D10_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_get_refResolutionX_mF0A85ACEC0E811C9796D12A8E53FF961C1C89CFB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_get_refResolutionY_mA553B21D4E35F139ADE5AA82D1A911ECABE758BA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_get_stretchFill_m0880634A47975D84D0F266321D6C1BE01BF6CDE8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_get_upscaleRT_m7BB069D54061F262D7A5C4720B28C90657600023_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_set_assetsPPU_mB5C7A2D57479E53699EA35659B246E9A8FFC5B73_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_set_cropFrameX_m7F2003D17778A1039DBDDEEB5902CF81E6C1700E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_set_cropFrameY_m469D01AF3E433907A1C672283E4860F83757C892_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_set_pixelSnapping_m64D63AC75BD127218EAB920645AF051A3451AB05_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_set_refResolutionX_m8A75C95405A5B5A1DF30C8F7540E87FE19DFEEBF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_set_refResolutionY_m7D3B3F7E3B363217236210D850F04F5E25DD053A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_set_stretchFill_m834E542EE52D7AB56F5E1577A48615BD4D7C7AEA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PixelPerfectCamera_set_upscaleRT_mC285595CF8F32752BE35E7251E31546E7C06278E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Rect_get_x_mB267B718E0D067F2BAE31BA477647FBF964916EB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Rect_get_y_mC733E8D49F3CE21B2A3D40A1B72D687F22C97F49_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Rect_op_Equality_mF2A038255CAF5F1E86079B9EE0FC96DE54307C1F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Rect_op_Inequality_mB5D7316EB50B1DDA9324F4BE6741DFF6A673137D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Rect_set_height_mD00038E6E06637137A5626CA8CD421924005BF03_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Rect_set_width_m93B6217CF3EFF89F9B0C81F34D7345DE90B93E5A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Rect_set_x_mAB91AB71898A20762BC66FD0723C4C739C4C3406_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Rect_set_y_mDE91F4B98A6E8623EFB1250FF6526D5DB5855629_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mAEF193637B3F0160FF34428A5856672E722ADFB4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mA1CE7C388B9E7621276704218BEB499CC1FB55CE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector2Int_get_x_mA2CACB1B6E6B5AD0CCC32B2CD2EDCE3ECEB50576_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector2Int_get_y_m48454163ECF0B463FB5A16A0C4FC4B14DB0768B3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector2Int_get_zero_mF92C338E9CB9434105090E675E04D20A29649553_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector2Int_set_x_m291ECF246536852F0B8EE049C4A3768E4999CDC8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector2Int_set_y_mF81881204EEE272BA409728C7EBFDE3A979DDF6A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* CinemachinePixelPerfect_tE6CCF3C73CBDD7F9723CCC8A7D72FAB5AD7657D7_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Color_tD001788D726C3A7F1379BEED0260B9591F440C1F_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* MonoScriptData_t799301C41365248339AE73896ADB30CC7571E0AD_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* String_t_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var;
+
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct GUILayoutOptionU5BU5D_t24AB80AB9355D784F2C65E12A4D0CC2E0C914CA2;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_t914B895F17EB87E4ACCC552837D71D20AF85C205 
+{
+};
+struct EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE  : public RuntimeObject
+{
+};
+struct U3CPrivateImplementationDetailsU3E_t39B215207DCDFB3656BE676BB350E2626B3C2C84  : public RuntimeObject
+{
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t0C275585D2E63B9638E5C799091C73FF74B30CD5  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	double ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 
+{
+	float ___m00;
+	float ___m10;
+	float ___m20;
+	float ___m30;
+	float ___m01;
+	float ___m11;
+	float ___m21;
+	float ___m31;
+	float ___m02;
+	float ___m12;
+	float ___m22;
+	float ___m32;
+	float ___m03;
+	float ___m13;
+	float ___m23;
+	float ___m33;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D 
+{
+	float ___m_XMin;
+	float ___m_YMin;
+	float ___m_Width;
+	float ___m_Height;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A 
+{
+	int32_t ___m_X;
+	int32_t ___m_Y;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D170_t31990ADE06AF98816AE5BBEADA3CCE7E87736A56 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D170_t31990ADE06AF98816AE5BBEADA3CCE7E87736A56__padding[170];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D289_tC5C9CC63948A355A42147524DE6E618F27FBA5BE 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D289_tC5C9CC63948A355A42147524DE6E618F27FBA5BE__padding[289];
+	};
+};
+#pragma pack(pop, tp)
+struct MonoScriptData_t799301C41365248339AE73896ADB30CC7571E0AD 
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___FilePathsData;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	bool ___IsEditorOnly;
+};
+struct MonoScriptData_t799301C41365248339AE73896ADB30CC7571E0AD_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct MonoScriptData_t799301C41365248339AE73896ADB30CC7571E0AD_marshaled_com
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct FilterMode_t4AD57F1A3FE272D650E0E688BA044AE872BD2A34 
+{
+	int32_t ___value__;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE  : public RuntimeObject
+{
+	RuntimeObject* ___m_Component;
+	PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* ___m_SerializableComponent;
+	float ___originalOrthoSize;
+	bool ___hasPostProcessLayer;
+	bool ___cropFrameXAndY;
+	bool ___cropFrameXOrY;
+	bool ___useStretchFill;
+	int32_t ___zoom;
+	bool ___useOffscreenRT;
+	int32_t ___offscreenRTWidth;
+	int32_t ___offscreenRTHeight;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___pixelRect;
+	float ___orthoSize;
+	float ___unitsPerPixel;
+	int32_t ___cinemachineVCamZoom;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct Type_t94B090894A3B9A5C5AEBD91800DB10688CC00F4A 
+{
+	int32_t ___value__;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct GUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14  : public RuntimeObject
+{
+	int32_t ___type;
+	RuntimeObject* ___value;
+};
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27  : public Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700
+{
+};
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct CinemachinePixelPerfect_tE6CCF3C73CBDD7F9723CCC8A7D72FAB5AD7657D7  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	int32_t ___m_AssetsPPU;
+	int32_t ___m_RefResolutionX;
+	int32_t ___m_RefResolutionY;
+	bool ___m_UpscaleRT;
+	bool ___m_PixelSnapping;
+	bool ___m_CropFrameX;
+	bool ___m_CropFrameY;
+	bool ___m_StretchFill;
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___m_Camera;
+	PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* ___m_Internal;
+	bool ___m_CinemachineCompatibilityMode;
+};
+struct EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___Value;
+};
+struct U3CPrivateImplementationDetailsU3E_t39B215207DCDFB3656BE676BB350E2626B3C2C84_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D170_t31990ADE06AF98816AE5BBEADA3CCE7E87736A56 ___47D6D5CB9C1516368F4D48F31165E2EB9D04D22FB9375302B8133DD308A02429;
+	__StaticArrayInitTypeSizeU3D289_tC5C9CC63948A355A42147524DE6E618F27FBA5BE ___B6802E875EB7B71B2695090BC5E6AC9DCD3843EB0E6BF7C21CFB45D12D167F67;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_StaticFields
+{
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___zeroMatrix;
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___identityMatrix;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion;
+};
+struct Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A_StaticFields
+{
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_Zero;
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_One;
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_Up;
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_Down;
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_Left;
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___s_Right;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700_StaticFields
+{
+	int32_t ___GenerateAllMips;
+};
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
+{
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreCull;
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreRender;
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPostRender;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct GUILayoutOptionU5BU5D_t24AB80AB9355D784F2C65E12A4D0CC2E0C914CA2  : public RuntimeArray
+{
+	ALIGN_FIELD (8) GUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14* m_Items[1];
+
+	inline GUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline GUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, GUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline GUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline GUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, GUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline (const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float PixelPerfectCameraInternal_CorrectCinemachineOrthoSize_mCD4C1B0EBDC7FBDE0A17AA8BE4F5EC1ABD574CED (PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* __this, float ___0_targetOrthoSize, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 PixelPerfectCamera_RoundToPixel_mF2C9FEBE8BEAEBF8A347E1B2747C9BFDD2778592 (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_pos, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_q, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_s, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 Transform_get_worldToLocalMatrix_mB633C122A01BCE8E51B10B8B8CB95F580750B3F1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 Matrix4x4_op_Multiply_m75E91775655DCA8DFC8EDE0AB787285BB3935162 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___0_lhs, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Camera_set_worldToCameraMatrix_mC199F02E435CE7261F7EECD1FD78A33EA96ABC0D (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___0_value, const RuntimeMethod* method) ;
+inline Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PixelPerfectCameraInternal__ctor_m9BA2244B557EA69E48A85D9C66B7C99C45A4C0F5 (PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* __this, RuntimeObject* ___0_component, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Camera_get_orthographicSize_m7950C5627086253E02992A43ADFE59039DB473F8 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* Component_GetComponent_m20396D033609F7E1E2AB8DC9C01BE188491C9CE5 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, String_t* ___0_type, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* Camera_get_targetTexture_mC856D7FF8351476068D04E245E4F08F5C56A55BD (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB (RuntimeObject* ___0_message, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_context, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PixelPerfectCameraInternal_CalculateCameraProperties_m0C1A9F48317FBD0710DCEF29FB7D4B7ECEADE4F7 (PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* __this, int32_t ___0_screenWidth, int32_t ___1_screenHeight, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Camera_set_forceIntoRenderTexture_mBD476C952C128BEAF51E85C4635DBFD85ABAB7BA (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PixelPerfectCamera_PixelSnap_m260BC623D3DB1F4687F20AC085C68B4D930ABB21 (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D Rect_get_zero_m5341D8B63DEF1F4C308A685EEC8CFEA12A396C8D (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Rect_op_Inequality_mB5D7316EB50B1DDA9324F4BE6741DFF6A673137D_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_lhs, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Camera_set_pixelRect_m4A9504577204D4E72B39BFB637ED808B778568A5 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_x, float ___1_y, float ___2_width, float ___3_height, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Camera_set_rect_mA81158BC169AF8674DE240AE9460FC5A0EADBB19 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Camera_set_orthographicSize_m76DD021032ACB3DDBD052B75EC66DCE3A7295A5C (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_black_mB50217951591A045844C61E7FF31EEE3FEF16737_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GL_Clear_mA172E771FC32B516DB826F537832307C3A16BE09 (bool ___0_clearDepth, bool ___1_clearColor, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___2_backgroundColor, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PixelPerfectRendering_set_pixelSnapSpacing_mCE94C24F8C7EBA84D8C6C47F10A32DDBD3329904 (float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* Camera_get_activeTexture_m34547EDF06B83A0DAAAE89FBC5E012329A3477AA (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture_set_filterMode_mE423E58C0C16D059EA62BA87AD70F44AEA50CCC9 (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Camera_get_aspect_m48BF8820EA2D55BE0D154BC5546819FB65BE257D (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D PixelPerfectCameraInternal_CalculatePostRenderPixelRect_mC41F2F6B554C0E28AB9344868E3B887118221B39 (PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* __this, float ___0_cameraAspect, int32_t ___1_screenWidth, int32_t ___2_screenHeight, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Camera_ResetAspect_mAC248F92A2CAC44E2D33EFC3D08AACA9BC3DCEBB (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Camera_ResetWorldToCameraMatrix_m25E544C8F31680DC08C58F7416AFD77DA3DB3F91 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F GUI_get_color_m15488B4AD785D10DEB5C66398D0FA9A0C0EA7ABB (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUI_set_color_mA44927D3F2ACB1E228815F10042A6F62B7645648 (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A Vector2Int_get_zero_mF92C338E9CB9434105090E675E04D20A29649553_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Camera_get_pixelWidth_m55AC8AD744FC0179865C2E630C68F9AD0799065D (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2Int_set_x_m291ECF246536852F0B8EE049C4A3768E4999CDC8_inline (Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Camera_get_pixelHeight_m00881B5A440B0018D5A8F837694027050B500F59 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2Int_set_y_mF81881204EEE272BA409728C7EBFDE3A979DDF6A_inline (Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Vector2Int_get_x_mA2CACB1B6E6B5AD0CCC32B2CD2EDCE3ECEB50576_inline (Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Vector2Int_get_y_m48454163ECF0B463FB5A16A0C4FC4B14DB0768B3_inline (Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987 (String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, const RuntimeMethod* method) ;
+inline GUILayoutOptionU5BU5D_t24AB80AB9355D784F2C65E12A4D0CC2E0C914CA2* Array_Empty_TisGUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14_mC7F345AC4C0CA86560FAA00174268F70FBBE577F_inline (const RuntimeMethod* method)
+{
+	return ((  GUILayoutOptionU5BU5D_t24AB80AB9355D784F2C65E12A4D0CC2E0C914CA2* (*) (const RuntimeMethod*))Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline)(method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUILayout_Box_m4CEFB7550F94CA85459CEACB810E9F99C7451456 (String_t* ___0_text, GUILayoutOptionU5BU5D_t24AB80AB9355D784F2C65E12A4D0CC2E0C914CA2* ___1_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PixelPerfectCamera_get_refResolutionX_mF0A85ACEC0E811C9796D12A8E53FF961C1C89CFB (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PixelPerfectCamera_get_refResolutionY_mA553B21D4E35F139ADE5AA82D1A911ECABE758BA (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Math_Min_m53C488772A34D53917BCA2A491E79A0A5356ED52 (int32_t ___0_val1, int32_t ___1_val2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF (int32_t ___0_val1, int32_t ___1_val2, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect_set_width_m93B6217CF3EFF89F9B0C81F34D7345DE90B93E5A_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect_set_height_mD00038E6E06637137A5626CA8CD421924005BF03_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect_set_x_mAB91AB71898A20762BC66FD0723C4C739C4C3406_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect_set_y_mDE91F4B98A6E8623EFB1250FF6526D5DB5855629_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Rect_op_Equality_mF2A038255CAF5F1E86079B9EE0FC96DE54307C1F_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_lhs, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline (float ___0_f, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_x_mB267B718E0D067F2BAE31BA477647FBF964916EB_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_y_mC733E8D49F3CE21B2A3D40A1B72D687F22C97F49_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t799301C41365248339AE73896ADB30CC7571E0AD UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mAEF193637B3F0160FF34428A5856672E722ADFB4 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MonoScriptData_t799301C41365248339AE73896ADB30CC7571E0AD_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t39B215207DCDFB3656BE676BB350E2626B3C2C84____47D6D5CB9C1516368F4D48F31165E2EB9D04D22FB9375302B8133DD308A02429_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t39B215207DCDFB3656BE676BB350E2626B3C2C84____B6802E875EB7B71B2695090BC5E6AC9DCD3843EB0E6BF7C21CFB45D12D167F67_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mAEF193637B3F0160FF34428A5856672E722ADFB4_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MonoScriptData_t799301C41365248339AE73896ADB30CC7571E0AD V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	MonoScriptData_t799301C41365248339AE73896ADB30CC7571E0AD V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mAEF193637B3F0160FF34428A5856672E722ADFB4_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 0));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 1));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 2));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 3));
+		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t799301C41365248339AE73896ADB30CC7571E0AD));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)289));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t39B215207DCDFB3656BE676BB350E2626B3C2C84____B6802E875EB7B71B2695090BC5E6AC9DCD3843EB0E6BF7C21CFB45D12D167F67_FieldInfo_var) };
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 4));
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 4));
+		(&V_0)->___FilePathsData = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)170));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t39B215207DCDFB3656BE676BB350E2626B3C2C84____47D6D5CB9C1516368F4D48F31165E2EB9D04D22FB9375302B8133DD308A02429_FieldInfo_var) };
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 5));
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 5));
+		(&V_0)->___TypesData = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
+		(&V_0)->___TotalFiles = 3;
+		(&V_0)->___TotalTypes = 4;
+		(&V_0)->___IsEditorOnly = (bool)0;
+		MonoScriptData_t799301C41365248339AE73896ADB30CC7571E0AD L_6 = V_0;
+		V_1 = L_6;
+		goto IL_005d;
+	}
+
+IL_005d:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 6));
+		MonoScriptData_t799301C41365248339AE73896ADB30CC7571E0AD L_7 = V_1;
+		return L_7;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mA1CE7C388B9E7621276704218BEB499CC1FB55CE (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t0C275585D2E63B9638E5C799091C73FF74B30CD5* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mA1CE7C388B9E7621276704218BEB499CC1FB55CE_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mA1CE7C388B9E7621276704218BEB499CC1FB55CE_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void MonoScriptData_t799301C41365248339AE73896ADB30CC7571E0AD_marshal_pinvoke(const MonoScriptData_t799301C41365248339AE73896ADB30CC7571E0AD& unmarshaled, MonoScriptData_t799301C41365248339AE73896ADB30CC7571E0AD_marshaled_pinvoke& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t799301C41365248339AE73896ADB30CC7571E0AD_marshal_pinvoke_back(const MonoScriptData_t799301C41365248339AE73896ADB30CC7571E0AD_marshaled_pinvoke& marshaled, MonoScriptData_t799301C41365248339AE73896ADB30CC7571E0AD& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t799301C41365248339AE73896ADB30CC7571E0AD_marshal_pinvoke_cleanup(MonoScriptData_t799301C41365248339AE73896ADB30CC7571E0AD_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t799301C41365248339AE73896ADB30CC7571E0AD_marshal_com(const MonoScriptData_t799301C41365248339AE73896ADB30CC7571E0AD& unmarshaled, MonoScriptData_t799301C41365248339AE73896ADB30CC7571E0AD_marshaled_com& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t799301C41365248339AE73896ADB30CC7571E0AD_marshal_com_back(const MonoScriptData_t799301C41365248339AE73896ADB30CC7571E0AD_marshaled_com& marshaled, MonoScriptData_t799301C41365248339AE73896ADB30CC7571E0AD& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t799301C41365248339AE73896ADB30CC7571E0AD_marshal_com_cleanup(MonoScriptData_t799301C41365248339AE73896ADB30CC7571E0AD_marshaled_com& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CinemachinePixelPerfect_OnEnable_m8F61B251CA3256600FAA6C2AC09CE2F38906122A (CinemachinePixelPerfect_tE6CCF3C73CBDD7F9723CCC8A7D72FAB5AD7657D7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CinemachinePixelPerfect_OnEnable_m8F61B251CA3256600FAA6C2AC09CE2F38906122A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CinemachinePixelPerfect_tE6CCF3C73CBDD7F9723CCC8A7D72FAB5AD7657D7_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6B44A7675031FCAC57E28AD1002F65360C76AFF2);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CinemachinePixelPerfect_OnEnable_m8F61B251CA3256600FAA6C2AC09CE2F38906122A_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 7));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 8));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 9));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 10));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 11));
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral6B44A7675031FCAC57E28AD1002F65360C76AFF2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 11));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 12));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CinemachinePixelPerfect__ctor_m62B0EA6CEF2A6B8F810E3202E5EFA351ADDD486A (CinemachinePixelPerfect_tE6CCF3C73CBDD7F9723CCC8A7D72FAB5AD7657D7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CinemachinePixelPerfect__ctor_m62B0EA6CEF2A6B8F810E3202E5EFA351ADDD486A_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CinemachinePixelPerfect__ctor_m62B0EA6CEF2A6B8F810E3202E5EFA351ADDD486A_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PixelPerfectCamera_get_assetsPPU_m7236DCB6650FD2F31B83FBE71FAA1C57F8E5CD82 (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_get_assetsPPU_m7236DCB6650FD2F31B83FBE71FAA1C57F8E5CD82_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_get_assetsPPU_m7236DCB6650FD2F31B83FBE71FAA1C57F8E5CD82_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 13));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 14));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 15));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 16));
+		int32_t L_0 = __this->___m_AssetsPPU;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 17));
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PixelPerfectCamera_set_assetsPPU_mB5C7A2D57479E53699EA35659B246E9A8FFC5B73 (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_set_assetsPPU_mB5C7A2D57479E53699EA35659B246E9A8FFC5B73_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_set_assetsPPU_mB5C7A2D57479E53699EA35659B246E9A8FFC5B73_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 18));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 19));
+	PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* G_B2_0 = NULL;
+	PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* G_B1_0 = NULL;
+	int32_t G_B3_0 = 0;
+	PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* G_B3_1 = NULL;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 20));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 21));
+		int32_t L_0 = ___0_value;
+		if ((((int32_t)L_0) > ((int32_t)0)))
+		{
+			G_B2_0 = __this;
+			goto IL_0009;
+		}
+		G_B1_0 = __this;
+	}
+	{
+		G_B3_0 = 1;
+		G_B3_1 = G_B1_0;
+		goto IL_000a;
+	}
+
+IL_0009:
+	{
+		int32_t L_1 = ___0_value;
+		G_B3_0 = L_1;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_000a:
+	{
+		NullCheck(G_B3_1);
+		G_B3_1->___m_AssetsPPU = G_B3_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 22));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PixelPerfectCamera_get_refResolutionX_mF0A85ACEC0E811C9796D12A8E53FF961C1C89CFB (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_get_refResolutionX_mF0A85ACEC0E811C9796D12A8E53FF961C1C89CFB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_get_refResolutionX_mF0A85ACEC0E811C9796D12A8E53FF961C1C89CFB_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 23));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 24));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 25));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 26));
+		int32_t L_0 = __this->___m_RefResolutionX;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 27));
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PixelPerfectCamera_set_refResolutionX_m8A75C95405A5B5A1DF30C8F7540E87FE19DFEEBF (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_set_refResolutionX_m8A75C95405A5B5A1DF30C8F7540E87FE19DFEEBF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_set_refResolutionX_m8A75C95405A5B5A1DF30C8F7540E87FE19DFEEBF_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 28));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 29));
+	PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* G_B2_0 = NULL;
+	PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* G_B1_0 = NULL;
+	int32_t G_B3_0 = 0;
+	PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* G_B3_1 = NULL;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 30));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 31));
+		int32_t L_0 = ___0_value;
+		if ((((int32_t)L_0) > ((int32_t)0)))
+		{
+			G_B2_0 = __this;
+			goto IL_0009;
+		}
+		G_B1_0 = __this;
+	}
+	{
+		G_B3_0 = 1;
+		G_B3_1 = G_B1_0;
+		goto IL_000a;
+	}
+
+IL_0009:
+	{
+		int32_t L_1 = ___0_value;
+		G_B3_0 = L_1;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_000a:
+	{
+		NullCheck(G_B3_1);
+		G_B3_1->___m_RefResolutionX = G_B3_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 32));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PixelPerfectCamera_get_refResolutionY_mA553B21D4E35F139ADE5AA82D1A911ECABE758BA (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_get_refResolutionY_mA553B21D4E35F139ADE5AA82D1A911ECABE758BA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_get_refResolutionY_mA553B21D4E35F139ADE5AA82D1A911ECABE758BA_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 33));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 34));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 35));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 36));
+		int32_t L_0 = __this->___m_RefResolutionY;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 37));
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PixelPerfectCamera_set_refResolutionY_m7D3B3F7E3B363217236210D850F04F5E25DD053A (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_set_refResolutionY_m7D3B3F7E3B363217236210D850F04F5E25DD053A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_set_refResolutionY_m7D3B3F7E3B363217236210D850F04F5E25DD053A_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 38));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 39));
+	PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* G_B2_0 = NULL;
+	PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* G_B1_0 = NULL;
+	int32_t G_B3_0 = 0;
+	PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* G_B3_1 = NULL;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 40));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 41));
+		int32_t L_0 = ___0_value;
+		if ((((int32_t)L_0) > ((int32_t)0)))
+		{
+			G_B2_0 = __this;
+			goto IL_0009;
+		}
+		G_B1_0 = __this;
+	}
+	{
+		G_B3_0 = 1;
+		G_B3_1 = G_B1_0;
+		goto IL_000a;
+	}
+
+IL_0009:
+	{
+		int32_t L_1 = ___0_value;
+		G_B3_0 = L_1;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_000a:
+	{
+		NullCheck(G_B3_1);
+		G_B3_1->___m_RefResolutionY = G_B3_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 42));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PixelPerfectCamera_get_upscaleRT_m7BB069D54061F262D7A5C4720B28C90657600023 (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_get_upscaleRT_m7BB069D54061F262D7A5C4720B28C90657600023_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_get_upscaleRT_m7BB069D54061F262D7A5C4720B28C90657600023_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 43));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 44));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 45));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 46));
+		bool L_0 = __this->___m_UpscaleRT;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 47));
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PixelPerfectCamera_set_upscaleRT_mC285595CF8F32752BE35E7251E31546E7C06278E (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_set_upscaleRT_mC285595CF8F32752BE35E7251E31546E7C06278E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_set_upscaleRT_mC285595CF8F32752BE35E7251E31546E7C06278E_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 48));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 49));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 50));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 51));
+		bool L_0 = ___0_value;
+		__this->___m_UpscaleRT = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 52));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PixelPerfectCamera_get_pixelSnapping_mE1669328218DFA6F55A7E94BB39C77EBDC8A7D10 (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_get_pixelSnapping_mE1669328218DFA6F55A7E94BB39C77EBDC8A7D10_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_get_pixelSnapping_mE1669328218DFA6F55A7E94BB39C77EBDC8A7D10_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 53));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 54));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 55));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 56));
+		bool L_0 = __this->___m_PixelSnapping;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 57));
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PixelPerfectCamera_set_pixelSnapping_m64D63AC75BD127218EAB920645AF051A3451AB05 (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_set_pixelSnapping_m64D63AC75BD127218EAB920645AF051A3451AB05_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_set_pixelSnapping_m64D63AC75BD127218EAB920645AF051A3451AB05_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 58));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 59));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 60));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 61));
+		bool L_0 = ___0_value;
+		__this->___m_PixelSnapping = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 62));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PixelPerfectCamera_get_cropFrameX_m445326A62051D6C2C290F38DC3C4E2E97043023B (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_get_cropFrameX_m445326A62051D6C2C290F38DC3C4E2E97043023B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_get_cropFrameX_m445326A62051D6C2C290F38DC3C4E2E97043023B_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 63));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 64));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 65));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 66));
+		bool L_0 = __this->___m_CropFrameX;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 67));
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PixelPerfectCamera_set_cropFrameX_m7F2003D17778A1039DBDDEEB5902CF81E6C1700E (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_set_cropFrameX_m7F2003D17778A1039DBDDEEB5902CF81E6C1700E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_set_cropFrameX_m7F2003D17778A1039DBDDEEB5902CF81E6C1700E_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 68));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 69));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 70));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 71));
+		bool L_0 = ___0_value;
+		__this->___m_CropFrameX = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 72));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PixelPerfectCamera_get_cropFrameY_m2C0CCE1A3BA3186C72DC06BD7B7741B2C1D98D90 (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_get_cropFrameY_m2C0CCE1A3BA3186C72DC06BD7B7741B2C1D98D90_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_get_cropFrameY_m2C0CCE1A3BA3186C72DC06BD7B7741B2C1D98D90_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 73));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 74));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 75));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 76));
+		bool L_0 = __this->___m_CropFrameY;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 77));
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PixelPerfectCamera_set_cropFrameY_m469D01AF3E433907A1C672283E4860F83757C892 (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_set_cropFrameY_m469D01AF3E433907A1C672283E4860F83757C892_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_set_cropFrameY_m469D01AF3E433907A1C672283E4860F83757C892_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 78));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 79));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 80));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 81));
+		bool L_0 = ___0_value;
+		__this->___m_CropFrameY = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 82));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PixelPerfectCamera_get_stretchFill_m0880634A47975D84D0F266321D6C1BE01BF6CDE8 (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_get_stretchFill_m0880634A47975D84D0F266321D6C1BE01BF6CDE8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_get_stretchFill_m0880634A47975D84D0F266321D6C1BE01BF6CDE8_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 83));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 84));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 85));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 86));
+		bool L_0 = __this->___m_StretchFill;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 87));
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PixelPerfectCamera_set_stretchFill_m834E542EE52D7AB56F5E1577A48615BD4D7C7AEA (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_set_stretchFill_m834E542EE52D7AB56F5E1577A48615BD4D7C7AEA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_set_stretchFill_m834E542EE52D7AB56F5E1577A48615BD4D7C7AEA_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 88));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 89));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 90));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 91));
+		bool L_0 = ___0_value;
+		__this->___m_StretchFill = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 92));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PixelPerfectCamera_get_pixelRatio_mD04D1FBE58D9266C9CB354DDC8911CDD69C2263F (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_get_pixelRatio_mD04D1FBE58D9266C9CB354DDC8911CDD69C2263F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	int32_t V_2 = 0;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_get_pixelRatio_mD04D1FBE58D9266C9CB354DDC8911CDD69C2263F_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 93));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 94));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 95));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 96));
+		bool L_0 = __this->___m_CinemachineCompatibilityMode;
+		V_0 = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 97));
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 98));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 99));
+		bool L_2 = __this->___m_UpscaleRT;
+		V_1 = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 100));
+		bool L_3 = V_1;
+		if (!L_3)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 101));
+		PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* L_4 = __this->___m_Internal;
+		NullCheck(L_4);
+		int32_t L_5 = L_4->___zoom;
+		PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* L_6 = __this->___m_Internal;
+		NullCheck(L_6);
+		int32_t L_7 = L_6->___cinemachineVCamZoom;
+		V_2 = ((int32_t)il2cpp_codegen_multiply(L_5, L_7));
+		goto IL_004d;
+	}
+
+IL_0030:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 102));
+		PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* L_8 = __this->___m_Internal;
+		NullCheck(L_8);
+		int32_t L_9 = L_8->___cinemachineVCamZoom;
+		V_2 = L_9;
+		goto IL_004d;
+	}
+
+IL_003e:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 103));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 104));
+		PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* L_10 = __this->___m_Internal;
+		NullCheck(L_10);
+		int32_t L_11 = L_10->___zoom;
+		V_2 = L_11;
+		goto IL_004d;
+	}
+
+IL_004d:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 105));
+		int32_t L_12 = V_2;
+		return L_12;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 PixelPerfectCamera_RoundToPixel_mF2C9FEBE8BEAEBF8A347E1B2747C9BFDD2778592 (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_RoundToPixel_mF2C9FEBE8BEAEBF8A347E1B2747C9BFDD2778592_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	bool V_2 = false;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_position));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_RoundToPixel_mF2C9FEBE8BEAEBF8A347E1B2747C9BFDD2778592_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 106));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 107));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 108));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 109));
+		PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* L_0 = __this->___m_Internal;
+		NullCheck(L_0);
+		float L_1 = L_0->___unitsPerPixel;
+		V_0 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 110));
+		float L_2 = V_0;
+		V_2 = (bool)((((float)L_2) == ((float)(0.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 111));
+		bool L_3 = V_2;
+		if (!L_3)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 112));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_position;
+		V_3 = L_4;
+		goto IL_0063;
+	}
+
+IL_001d:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 113));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = ___0_position;
+		float L_6 = L_5.___x;
+		float L_7 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 114));
+		float L_8;
+		L_8 = bankers_roundf(((float)(L_6/L_7)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 114));
+		float L_9 = V_0;
+		(&V_1)->___x = ((float)il2cpp_codegen_multiply(L_8, L_9));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 115));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___0_position;
+		float L_11 = L_10.___y;
+		float L_12 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 116));
+		float L_13;
+		L_13 = bankers_roundf(((float)(L_11/L_12)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 116));
+		float L_14 = V_0;
+		(&V_1)->___y = ((float)il2cpp_codegen_multiply(L_13, L_14));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 117));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = ___0_position;
+		float L_16 = L_15.___z;
+		float L_17 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 118));
+		float L_18;
+		L_18 = bankers_roundf(((float)(L_16/L_17)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 118));
+		float L_19 = V_0;
+		(&V_1)->___z = ((float)il2cpp_codegen_multiply(L_18, L_19));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 119));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = V_1;
+		V_3 = L_20;
+		goto IL_0063;
+	}
+
+IL_0063:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 120));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = V_3;
+		return L_21;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float PixelPerfectCamera_CorrectCinemachineOrthoSize_m954071ACDDE4E77D706BE79EB8C2562BE55CADCD (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, float ___0_targetOrthoSize, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_CorrectCinemachineOrthoSize_m954071ACDDE4E77D706BE79EB8C2562BE55CADCD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_targetOrthoSize));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_CorrectCinemachineOrthoSize_m954071ACDDE4E77D706BE79EB8C2562BE55CADCD_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 121));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 122));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 123));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 124));
+		__this->___m_CinemachineCompatibilityMode = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 125));
+		PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* L_0 = __this->___m_Internal;
+		V_0 = (bool)((((RuntimeObject*)(PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 126));
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 127));
+		float L_2 = ___0_targetOrthoSize;
+		V_1 = L_2;
+		goto IL_0028;
+	}
+
+IL_0019:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 128));
+		PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* L_3 = __this->___m_Internal;
+		float L_4 = ___0_targetOrthoSize;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 129));
+		NullCheck(L_3);
+		float L_5;
+		L_5 = PixelPerfectCameraInternal_CorrectCinemachineOrthoSize_mCD4C1B0EBDC7FBDE0A17AA8BE4F5EC1ABD574CED(L_3, L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 129));
+		V_1 = L_5;
+		goto IL_0028;
+	}
+
+IL_0028:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 130));
+		float L_6 = V_1;
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PixelPerfectCamera_PixelSnap_m260BC623D3DB1F4687F20AC085C68B4D930ABB21 (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_PixelSnap_m260BC623D3DB1F4687F20AC085C68B4D930ABB21_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_PixelSnap_m260BC623D3DB1F4687F20AC085C68B4D930ABB21_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 131));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 132));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 133));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 134));
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->___m_Camera;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 135));
+		NullCheck(L_0);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 135));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 136));
+		NullCheck(L_1);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 136));
+		V_0 = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 137));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 138));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = PixelPerfectCamera_RoundToPixel_mF2C9FEBE8BEAEBF8A347E1B2747C9BFDD2778592(__this, L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 138));
+		V_1 = L_4;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 139));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 140));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_5, L_6, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 140));
+		V_2 = L_7;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 141));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = V_2;
+		float L_9 = L_8.___z;
+		(&V_2)->___z = ((-L_9));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 142));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 143));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline(L_10, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 143));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 144));
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12;
+		L_12 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 144));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 145));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		memset((&L_13), 0, sizeof(L_13));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_13), (1.0f), (1.0f), (-1.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 145));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 146));
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_14;
+		L_14 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3(L_11, L_12, L_13, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 146));
+		V_3 = L_14;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 147));
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_15 = __this->___m_Camera;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_16 = V_3;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_17 = __this->___m_Camera;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 148));
+		NullCheck(L_17);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_18;
+		L_18 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_17, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 148));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 149));
+		NullCheck(L_18);
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_19;
+		L_19 = Transform_get_worldToLocalMatrix_mB633C122A01BCE8E51B10B8B8CB95F580750B3F1(L_18, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 149));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 150));
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_20;
+		L_20 = Matrix4x4_op_Multiply_m75E91775655DCA8DFC8EDE0AB787285BB3935162(L_16, L_19, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 150));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 151));
+		NullCheck(L_15);
+		Camera_set_worldToCameraMatrix_mC199F02E435CE7261F7EECD1FD78A33EA96ABC0D(L_15, L_20, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 151));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 152));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PixelPerfectCamera_Awake_m1361D5EF172AC03007B5846A243A1BE11521A06F (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_Awake_m1361D5EF172AC03007B5846A243A1BE11521A06F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral69D2BC13326043EFBE8498680B311F3B34E06698);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6E3C394542AFDC0953291817DE5BAA9A9329CF27);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_Awake_m1361D5EF172AC03007B5846A243A1BE11521A06F_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 153));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 154));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 155));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 156));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 157));
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0;
+		L_0 = Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4(__this, Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 157));
+		__this->___m_Camera = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Camera), (void*)L_0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 158));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 159));
+		PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* L_1 = (PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE*)il2cpp_codegen_object_new(PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE_il2cpp_TypeInfo_var);
+		PixelPerfectCameraInternal__ctor_m9BA2244B557EA69E48A85D9C66B7C99C45A4C0F5(L_1, __this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 159));
+		__this->___m_Internal = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Internal), (void*)L_1);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 160));
+		PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* L_2 = __this->___m_Internal;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_3 = __this->___m_Camera;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 161));
+		NullCheck(L_3);
+		float L_4;
+		L_4 = Camera_get_orthographicSize_m7950C5627086253E02992A43ADFE59039DB473F8(L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 161));
+		NullCheck(L_2);
+		L_2->___originalOrthoSize = L_4;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 162));
+		PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* L_5 = __this->___m_Internal;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 163));
+		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_6;
+		L_6 = Component_GetComponent_m20396D033609F7E1E2AB8DC9C01BE188491C9CE5(__this, _stringLiteral69D2BC13326043EFBE8498680B311F3B34E06698, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 163));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 164));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 164));
+		NullCheck(L_5);
+		L_5->___hasPostProcessLayer = L_7;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 165));
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_8 = __this->___m_Camera;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 166));
+		NullCheck(L_8);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_9;
+		L_9 = Camera_get_targetTexture_mC856D7FF8351476068D04E245E4F08F5C56A55BD(L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 166));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 167));
+		bool L_10;
+		L_10 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_9, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 167));
+		V_0 = L_10;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 168));
+		bool L_11 = V_0;
+		if (!L_11)
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 169));
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_12 = __this->___m_Camera;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 170));
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(_stringLiteral6E3C394542AFDC0953291817DE5BAA9A9329CF27, L_12, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 170));
+	}
+
+IL_0071:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 171));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PixelPerfectCamera_LateUpdate_m1D2BF8FDBE43306DED2AFE6F66CEE593958A8548 (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_LateUpdate_m1D2BF8FDBE43306DED2AFE6F66CEE593958A8548_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_LateUpdate_m1D2BF8FDBE43306DED2AFE6F66CEE593958A8548_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 172));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 173));
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* G_B2_0 = NULL;
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* G_B1_0 = NULL;
+	int32_t G_B3_0 = 0;
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* G_B3_1 = NULL;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 174));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 175));
+		PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* L_0 = __this->___m_Internal;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 176));
+		int32_t L_1;
+		L_1 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 176));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 177));
+		int32_t L_2;
+		L_2 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 177));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 178));
+		NullCheck(L_0);
+		PixelPerfectCameraInternal_CalculateCameraProperties_m0C1A9F48317FBD0710DCEF29FB7D4B7ECEADE4F7(L_0, L_1, L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 178));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 179));
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_3 = __this->___m_Camera;
+		PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* L_4 = __this->___m_Internal;
+		NullCheck(L_4);
+		bool L_5 = L_4->___hasPostProcessLayer;
+		if (L_5)
+		{
+			G_B2_0 = L_3;
+			goto IL_0037;
+		}
+		G_B1_0 = L_3;
+	}
+	{
+		PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* L_6 = __this->___m_Internal;
+		NullCheck(L_6);
+		bool L_7 = L_6->___useOffscreenRT;
+		G_B3_0 = ((int32_t)(L_7));
+		G_B3_1 = G_B1_0;
+		goto IL_0038;
+	}
+
+IL_0037:
+	{
+		G_B3_0 = 1;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_0038:
+	{
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 180));
+		NullCheck(G_B3_1);
+		Camera_set_forceIntoRenderTexture_mBD476C952C128BEAF51E85C4635DBFD85ABAB7BA(G_B3_1, (bool)G_B3_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 180));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 181));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PixelPerfectCamera_OnPreCull_mA9E75392FDDD3D52271F8C75F7A50278E85B4037 (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_OnPreCull_mA9E75392FDDD3D52271F8C75F7A50278E85B4037_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_OnPreCull_mA9E75392FDDD3D52271F8C75F7A50278E85B4037_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 182));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 183));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 184));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 185));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 186));
+		PixelPerfectCamera_PixelSnap_m260BC623D3DB1F4687F20AC085C68B4D930ABB21(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 186));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 187));
+		PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* L_0 = __this->___m_Internal;
+		NullCheck(L_0);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1 = L_0->___pixelRect;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 188));
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_2;
+		L_2 = Rect_get_zero_m5341D8B63DEF1F4C308A685EEC8CFEA12A396C8D(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 188));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 189));
+		bool L_3;
+		L_3 = Rect_op_Inequality_mB5D7316EB50B1DDA9324F4BE6741DFF6A673137D_inline(L_1, L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 189));
+		V_0 = L_3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 190));
+		bool L_4 = V_0;
+		if (!L_4)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 191));
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_5 = __this->___m_Camera;
+		PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* L_6 = __this->___m_Internal;
+		NullCheck(L_6);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_7 = L_6->___pixelRect;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 192));
+		NullCheck(L_5);
+		Camera_set_pixelRect_m4A9504577204D4E72B39BFB637ED808B778568A5(L_5, L_7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 192));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 193));
+		goto IL_005f;
+	}
+
+IL_003a:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 194));
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_8 = __this->___m_Camera;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 195));
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_9), (0.0f), (0.0f), (1.0f), (1.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 195));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 196));
+		NullCheck(L_8);
+		Camera_set_rect_mA81158BC169AF8674DE240AE9460FC5A0EADBB19(L_8, L_9, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 196));
+	}
+
+IL_005f:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 197));
+		bool L_10 = __this->___m_CinemachineCompatibilityMode;
+		V_1 = (bool)((((int32_t)L_10) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 198));
+		bool L_11 = V_1;
+		if (!L_11)
+		{
+			goto IL_0085;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 199));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 200));
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_12 = __this->___m_Camera;
+		PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* L_13 = __this->___m_Internal;
+		NullCheck(L_13);
+		float L_14 = L_13->___orthoSize;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 201));
+		NullCheck(L_12);
+		Camera_set_orthographicSize_m76DD021032ACB3DDBD052B75EC66DCE3A7295A5C(L_12, L_14, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 201));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 202));
+	}
+
+IL_0085:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 203));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PixelPerfectCamera_OnPreRender_m0DF9E768A68EEF80ABB6951FD1E0AFF893916FBA (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_OnPreRender_m0DF9E768A68EEF80ABB6951FD1E0AFF893916FBA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_OnPreRender_m0DF9E768A68EEF80ABB6951FD1E0AFF893916FBA_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 204));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 205));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 206));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 207));
+		PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* L_0 = __this->___m_Internal;
+		NullCheck(L_0);
+		bool L_1 = L_0->___cropFrameXOrY;
+		V_0 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 208));
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 209));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 210));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3;
+		L_3 = Color_get_black_mB50217951591A045844C61E7FF31EEE3FEF16737_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 210));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 211));
+		GL_Clear_mA172E771FC32B516DB826F537832307C3A16BE09((bool)0, (bool)1, L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 211));
+	}
+
+IL_001d:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 212));
+		PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* L_4 = __this->___m_Internal;
+		NullCheck(L_4);
+		float L_5 = L_4->___unitsPerPixel;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 213));
+		PixelPerfectRendering_set_pixelSnapSpacing_mCE94C24F8C7EBA84D8C6C47F10A32DDBD3329904(L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 213));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 214));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PixelPerfectCamera_OnPostRender_m9BC0CE38B0F281C31DADDB7097ECC1E95D83CC25 (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_OnPostRender_m9BC0CE38B0F281C31DADDB7097ECC1E95D83CC25_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* V_0 = NULL;
+	bool V_1 = false;
+	bool V_2 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_OnPostRender_m9BC0CE38B0F281C31DADDB7097ECC1E95D83CC25_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 215));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 216));
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B5_0 = NULL;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B4_0 = NULL;
+	int32_t G_B6_0 = 0;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* G_B6_1 = NULL;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 217));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 218));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 219));
+		PixelPerfectRendering_set_pixelSnapSpacing_mCE94C24F8C7EBA84D8C6C47F10A32DDBD3329904((0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 219));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 220));
+		PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* L_0 = __this->___m_Internal;
+		NullCheck(L_0);
+		bool L_1 = L_0->___useOffscreenRT;
+		V_1 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 221));
+		bool L_2 = V_1;
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 222));
+		goto IL_007b;
+	}
+
+IL_0020:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 223));
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_3 = __this->___m_Camera;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 224));
+		NullCheck(L_3);
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_4;
+		L_4 = Camera_get_activeTexture_m34547EDF06B83A0DAAAE89FBC5E012329A3477AA(L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 224));
+		V_0 = L_4;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 225));
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_5 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 226));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_6;
+		L_6 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 226));
+		V_2 = L_6;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 227));
+		bool L_7 = V_2;
+		if (!L_7)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 228));
+		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_8 = V_0;
+		PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* L_9 = __this->___m_Internal;
+		NullCheck(L_9);
+		bool L_10 = L_9->___useStretchFill;
+		if (L_10)
+		{
+			G_B5_0 = L_8;
+			goto IL_0048;
+		}
+		G_B4_0 = L_8;
+	}
+	{
+		G_B6_0 = 0;
+		G_B6_1 = G_B4_0;
+		goto IL_0049;
+	}
+
+IL_0048:
+	{
+		G_B6_0 = 1;
+		G_B6_1 = G_B5_0;
+	}
+
+IL_0049:
+	{
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 229));
+		NullCheck(G_B6_1);
+		Texture_set_filterMode_mE423E58C0C16D059EA62BA87AD70F44AEA50CCC9(G_B6_1, G_B6_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 229));
+	}
+
+IL_004f:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 230));
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_11 = __this->___m_Camera;
+		PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* L_12 = __this->___m_Internal;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_13 = __this->___m_Camera;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 231));
+		NullCheck(L_13);
+		float L_14;
+		L_14 = Camera_get_aspect_m48BF8820EA2D55BE0D154BC5546819FB65BE257D(L_13, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 231));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 232));
+		int32_t L_15;
+		L_15 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 232));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 233));
+		int32_t L_16;
+		L_16 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 233));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 234));
+		NullCheck(L_12);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_17;
+		L_17 = PixelPerfectCameraInternal_CalculatePostRenderPixelRect_mC41F2F6B554C0E28AB9344868E3B887118221B39(L_12, L_14, L_15, L_16, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 234));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 235));
+		NullCheck(L_11);
+		Camera_set_pixelRect_m4A9504577204D4E72B39BFB637ED808B778568A5(L_11, L_17, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 235));
+	}
+
+IL_007b:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 236));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PixelPerfectCamera_OnEnable_m38F3E385ECADF00606C9E3C602188C93E6A17EB2 (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_OnEnable_m38F3E385ECADF00606C9E3C602188C93E6A17EB2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_OnEnable_m38F3E385ECADF00606C9E3C602188C93E6A17EB2_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 237));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 238));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 239));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 240));
+		__this->___m_CinemachineCompatibilityMode = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 241));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PixelPerfectCamera_OnDisable_m7338FD1B80302BBE823F88744B11F8B0169857A6 (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_OnDisable_m7338FD1B80302BBE823F88744B11F8B0169857A6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_OnDisable_m7338FD1B80302BBE823F88744B11F8B0169857A6_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 242));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 243));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 244));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 245));
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->___m_Camera;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 246));
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_1), (0.0f), (0.0f), (1.0f), (1.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 246));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 247));
+		NullCheck(L_0);
+		Camera_set_rect_mA81158BC169AF8674DE240AE9460FC5A0EADBB19(L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 247));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 248));
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_2 = __this->___m_Camera;
+		PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* L_3 = __this->___m_Internal;
+		NullCheck(L_3);
+		float L_4 = L_3->___originalOrthoSize;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 249));
+		NullCheck(L_2);
+		Camera_set_orthographicSize_m76DD021032ACB3DDBD052B75EC66DCE3A7295A5C(L_2, L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 249));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 250));
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_5 = __this->___m_Camera;
+		PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* L_6 = __this->___m_Internal;
+		NullCheck(L_6);
+		bool L_7 = L_6->___hasPostProcessLayer;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 251));
+		NullCheck(L_5);
+		Camera_set_forceIntoRenderTexture_mBD476C952C128BEAF51E85C4635DBFD85ABAB7BA(L_5, L_7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 251));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 252));
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_8 = __this->___m_Camera;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 253));
+		NullCheck(L_8);
+		Camera_ResetAspect_mAC248F92A2CAC44E2D33EFC3D08AACA9BC3DCEBB(L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 253));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 254));
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_9 = __this->___m_Camera;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 255));
+		NullCheck(L_9);
+		Camera_ResetWorldToCameraMatrix_m25E544C8F31680DC08C58F7416AFD77DA3DB3F91(L_9, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 255));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 256));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PixelPerfectCamera_OnGUI_m4AC740BB982B08D2C63F428B9638FC9B2BC4664A (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisGUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14_mC7F345AC4C0CA86560FAA00174268F70FBBE577F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_tD001788D726C3A7F1379BEED0260B9591F440C1F_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_OnGUI_m4AC740BB982B08D2C63F428B9638FC9B2BC4664A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDE99B9E7BE86471C3F4C7B45CBB12E54FC2E800F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE037EE9DA619F0B70848CAC7A20087491D3E123F);
+		s_Il2CppMethodInitialized = true;
+	}
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	bool V_2 = false;
+	String_t* V_3 = NULL;
+	bool V_4 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_3));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera_OnGUI_m4AC740BB982B08D2C63F428B9638FC9B2BC4664A_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 257));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 258));
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A* G_B2_0 = NULL;
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A* G_B1_0 = NULL;
+	int32_t G_B3_0 = 0;
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A* G_B3_1 = NULL;
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A* G_B5_0 = NULL;
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A* G_B4_0 = NULL;
+	int32_t G_B6_0 = 0;
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A* G_B6_1 = NULL;
+	int32_t G_B9_0 = 0;
+	int32_t G_B14_0 = 0;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 259));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 260));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 261));
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		L_0 = GUI_get_color_m15488B4AD785D10DEB5C66398D0FA9A0C0EA7ABB(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 261));
+		V_0 = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 262));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 263));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
+		L_1 = Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 263));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 264));
+		GUI_set_color_mA44927D3F2ACB1E228815F10042A6F62B7645648(L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 264));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 265));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 266));
+		Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A L_2;
+		L_2 = Vector2Int_get_zero_mF92C338E9CB9434105090E675E04D20A29649553_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 266));
+		V_1 = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 267));
+		PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* L_3 = __this->___m_Internal;
+		NullCheck(L_3);
+		bool L_4 = L_3->___useOffscreenRT;
+		if (L_4)
+		{
+			G_B2_0 = (&V_1);
+			goto IL_0034;
+		}
+		G_B1_0 = (&V_1);
+	}
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_5 = __this->___m_Camera;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 268));
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = Camera_get_pixelWidth_m55AC8AD744FC0179865C2E630C68F9AD0799065D(L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 268));
+		G_B3_0 = L_6;
+		G_B3_1 = G_B1_0;
+		goto IL_003f;
+	}
+
+IL_0034:
+	{
+		PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* L_7 = __this->___m_Internal;
+		NullCheck(L_7);
+		int32_t L_8 = L_7->___offscreenRTWidth;
+		G_B3_0 = L_8;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_003f:
+	{
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 269));
+		Vector2Int_set_x_m291ECF246536852F0B8EE049C4A3768E4999CDC8_inline(G_B3_1, G_B3_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 269));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 270));
+		PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* L_9 = __this->___m_Internal;
+		NullCheck(L_9);
+		bool L_10 = L_9->___useOffscreenRT;
+		if (L_10)
+		{
+			G_B5_0 = (&V_1);
+			goto IL_0061;
+		}
+		G_B4_0 = (&V_1);
+	}
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_11 = __this->___m_Camera;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 271));
+		NullCheck(L_11);
+		int32_t L_12;
+		L_12 = Camera_get_pixelHeight_m00881B5A440B0018D5A8F837694027050B500F59(L_11, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 271));
+		G_B6_0 = L_12;
+		G_B6_1 = G_B4_0;
+		goto IL_006c;
+	}
+
+IL_0061:
+	{
+		PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* L_13 = __this->___m_Internal;
+		NullCheck(L_13);
+		int32_t L_14 = L_13->___offscreenRTHeight;
+		G_B6_0 = L_14;
+		G_B6_1 = G_B5_0;
+	}
+
+IL_006c:
+	{
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 272));
+		Vector2Int_set_y_mF81881204EEE272BA409728C7EBFDE3A979DDF6A_inline(G_B6_1, G_B6_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 272));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 273));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 274));
+		int32_t L_15;
+		L_15 = Vector2Int_get_x_mA2CACB1B6E6B5AD0CCC32B2CD2EDCE3ECEB50576_inline((&V_1), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 274));
+		if (((int32_t)(L_15%2)))
+		{
+			goto IL_008b;
+		}
+	}
+	{
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 275));
+		int32_t L_16;
+		L_16 = Vector2Int_get_y_m48454163ECF0B463FB5A16A0C4FC4B14DB0768B3_inline((&V_1), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 275));
+		G_B9_0 = ((!(((uint32_t)((int32_t)(L_16%2))) <= ((uint32_t)0)))? 1 : 0);
+		goto IL_008c;
+	}
+
+IL_008b:
+	{
+		G_B9_0 = 1;
+	}
+
+IL_008c:
+	{
+		V_2 = (bool)G_B9_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 276));
+		bool L_17 = V_2;
+		if (!L_17)
+		{
+			goto IL_00c1;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 277));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 278));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 279));
+		int32_t L_18;
+		L_18 = Vector2Int_get_x_mA2CACB1B6E6B5AD0CCC32B2CD2EDCE3ECEB50576_inline((&V_1), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 279));
+		int32_t L_19 = L_18;
+		RuntimeObject* L_20 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_19);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 280));
+		int32_t L_21;
+		L_21 = Vector2Int_get_y_m48454163ECF0B463FB5A16A0C4FC4B14DB0768B3_inline((&V_1), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 280));
+		int32_t L_22 = L_21;
+		RuntimeObject* L_23 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_22);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 281));
+		String_t* L_24;
+		L_24 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralDE99B9E7BE86471C3F4C7B45CBB12E54FC2E800F, L_20, L_23, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 281));
+		V_3 = L_24;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 282));
+		String_t* L_25 = V_3;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 283));
+		GUILayoutOptionU5BU5D_t24AB80AB9355D784F2C65E12A4D0CC2E0C914CA2* L_26;
+		L_26 = Array_Empty_TisGUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14_mC7F345AC4C0CA86560FAA00174268F70FBBE577F_inline(Array_Empty_TisGUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14_mC7F345AC4C0CA86560FAA00174268F70FBBE577F_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 283));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 284));
+		GUILayout_Box_m4CEFB7550F94CA85459CEACB810E9F99C7451456(L_25, L_26, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 284));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 285));
+	}
+
+IL_00c1:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 286));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 287));
+		int32_t L_27;
+		L_27 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 287));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 288));
+		int32_t L_28;
+		L_28 = PixelPerfectCamera_get_refResolutionX_mF0A85ACEC0E811C9796D12A8E53FF961C1C89CFB(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 288));
+		if ((((int32_t)L_27) < ((int32_t)L_28)))
+		{
+			goto IL_00dd;
+		}
+	}
+	{
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 289));
+		int32_t L_29;
+		L_29 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 289));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 290));
+		int32_t L_30;
+		L_30 = PixelPerfectCamera_get_refResolutionY_mA553B21D4E35F139ADE5AA82D1A911ECABE758BA(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 290));
+		G_B14_0 = ((((int32_t)L_29) < ((int32_t)L_30))? 1 : 0);
+		goto IL_00de;
+	}
+
+IL_00dd:
+	{
+		G_B14_0 = 1;
+	}
+
+IL_00de:
+	{
+		V_4 = (bool)G_B14_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 291));
+		bool L_31 = V_4;
+		if (!L_31)
+		{
+			goto IL_00f6;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 292));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 293));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 294));
+		GUILayoutOptionU5BU5D_t24AB80AB9355D784F2C65E12A4D0CC2E0C914CA2* L_32;
+		L_32 = Array_Empty_TisGUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14_mC7F345AC4C0CA86560FAA00174268F70FBBE577F_inline(Array_Empty_TisGUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14_mC7F345AC4C0CA86560FAA00174268F70FBBE577F_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 294));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 295));
+		GUILayout_Box_m4CEFB7550F94CA85459CEACB810E9F99C7451456(_stringLiteralE037EE9DA619F0B70848CAC7A20087491D3E123F, L_32, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 295));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 296));
+	}
+
+IL_00f6:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 297));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_33 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 298));
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		GUI_set_color_mA44927D3F2ACB1E228815F10042A6F62B7645648(L_33, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 298));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 299));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PixelPerfectCamera__ctor_mD0A0A89A62DDE239CD452527B084826C38349C65 (PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera__ctor_mD0A0A89A62DDE239CD452527B084826C38349C65_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCamera__ctor_mD0A0A89A62DDE239CD452527B084826C38349C65_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 300));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 301));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 302));
+		__this->___m_AssetsPPU = ((int32_t)100);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 303));
+		__this->___m_RefResolutionX = ((int32_t)320);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 304));
+		__this->___m_RefResolutionY = ((int32_t)180);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 305));
+		__this->___m_UpscaleRT = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 306));
+		__this->___m_PixelSnapping = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 307));
+		__this->___m_CropFrameX = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 308));
+		__this->___m_CropFrameY = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 309));
+		__this->___m_StretchFill = (bool)0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 310));
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 310));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PixelPerfectCameraInternal__ctor_m9BA2244B557EA69E48A85D9C66B7C99C45A4C0F5 (PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* __this, RuntimeObject* ___0_component, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCameraInternal__ctor_m9BA2244B557EA69E48A85D9C66B7C99C45A4C0F5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_component));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCameraInternal__ctor_m9BA2244B557EA69E48A85D9C66B7C99C45A4C0F5_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 311));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 312));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 313));
+		__this->___cropFrameXAndY = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 314));
+		__this->___cropFrameXOrY = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 315));
+		__this->___useStretchFill = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 316));
+		__this->___zoom = 1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 317));
+		__this->___useOffscreenRT = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 318));
+		__this->___offscreenRTWidth = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 319));
+		__this->___offscreenRTHeight = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 320));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 321));
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_0;
+		L_0 = Rect_get_zero_m5341D8B63DEF1F4C308A685EEC8CFEA12A396C8D(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 321));
+		__this->___pixelRect = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 322));
+		__this->___orthoSize = (1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 323));
+		__this->___unitsPerPixel = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 324));
+		__this->___cinemachineVCamZoom = 1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 325));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 326));
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 326));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 327));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 328));
+		RuntimeObject* L_1 = ___0_component;
+		__this->___m_Component = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Component), (void*)L_1);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 329));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PixelPerfectCameraInternal_OnBeforeSerialize_m619B674B64C11A49C5CFC75F7E1CE5C4E2E7F89F (PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCameraInternal_OnBeforeSerialize_m619B674B64C11A49C5CFC75F7E1CE5C4E2E7F89F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCameraInternal_OnBeforeSerialize_m619B674B64C11A49C5CFC75F7E1CE5C4E2E7F89F_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 330));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 331));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 332));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 333));
+		RuntimeObject* L_0 = __this->___m_Component;
+		__this->___m_SerializableComponent = ((PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9*)IsInstClass((RuntimeObject*)L_0, PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_SerializableComponent), (void*)((PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9*)IsInstClass((RuntimeObject*)L_0, PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9_il2cpp_TypeInfo_var)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 334));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PixelPerfectCameraInternal_OnAfterDeserialize_mDACB77CE1C48E71D52E67812D687FAC6D900C259 (PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCameraInternal_OnAfterDeserialize_mDACB77CE1C48E71D52E67812D687FAC6D900C259_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCameraInternal_OnAfterDeserialize_mDACB77CE1C48E71D52E67812D687FAC6D900C259_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 335));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 336));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 337));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 338));
+		PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* L_0 = __this->___m_SerializableComponent;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 339));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 339));
+		V_0 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 340));
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 341));
+		PixelPerfectCamera_t7B0849F4AB5E6399719BE7C3B330BCBBA3AAF7A9* L_3 = __this->___m_SerializableComponent;
+		__this->___m_Component = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Component), (void*)L_3);
+	}
+
+IL_001d:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 342));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PixelPerfectCameraInternal_CalculateCameraProperties_m0C1A9F48317FBD0710DCEF29FB7D4B7ECEADE4F7 (PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* __this, int32_t ___0_screenWidth, int32_t ___1_screenHeight, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPixelPerfectCamera_tB4C3F4D97915BC1D1D31D68788C8F4290B94A987_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCameraInternal_CalculateCameraProperties_m0C1A9F48317FBD0710DCEF29FB7D4B7ECEADE4F7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	bool V_3 = false;
+	bool V_4 = false;
+	bool V_5 = false;
+	bool V_6 = false;
+	bool V_7 = false;
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	bool V_10 = false;
+	bool V_11 = false;
+	bool V_12 = false;
+	bool V_13 = false;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	bool V_19 = false;
+	bool V_20 = false;
+	bool V_21 = false;
+	float V_22 = 0.0f;
+	bool V_23 = false;
+	float V_24 = 0.0f;
+	bool V_25 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_screenWidth), (&___1_screenHeight));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3), (&V_4), (&V_5), (&V_6), (&V_7), (&V_8), (&V_9), (&V_22), (&V_24));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCameraInternal_CalculateCameraProperties_m0C1A9F48317FBD0710DCEF29FB7D4B7ECEADE4F7_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 343));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 344));
+	int32_t G_B15_0 = 0;
+	int32_t G_B21_0 = 0;
+	float G_B36_0 = 0.0f;
+	int32_t G_B40_0 = 0;
+	float G_B45_0 = 0.0f;
+	int32_t G_B49_0 = 0;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 345));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 346));
+		RuntimeObject* L_0 = __this->___m_Component;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 347));
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(0, IPixelPerfectCamera_tB4C3F4D97915BC1D1D31D68788C8F4290B94A987_il2cpp_TypeInfo_var, L_0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 347));
+		V_0 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 348));
+		RuntimeObject* L_2 = __this->___m_Component;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 349));
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = InterfaceFuncInvoker0< int32_t >::Invoke(2, IPixelPerfectCamera_tB4C3F4D97915BC1D1D31D68788C8F4290B94A987_il2cpp_TypeInfo_var, L_2);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 349));
+		V_1 = L_3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 350));
+		RuntimeObject* L_4 = __this->___m_Component;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 351));
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = InterfaceFuncInvoker0< int32_t >::Invoke(4, IPixelPerfectCamera_tB4C3F4D97915BC1D1D31D68788C8F4290B94A987_il2cpp_TypeInfo_var, L_4);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 351));
+		V_2 = L_5;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 352));
+		RuntimeObject* L_6 = __this->___m_Component;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 353));
+		NullCheck(L_6);
+		bool L_7;
+		L_7 = InterfaceFuncInvoker0< bool >::Invoke(6, IPixelPerfectCamera_tB4C3F4D97915BC1D1D31D68788C8F4290B94A987_il2cpp_TypeInfo_var, L_6);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 353));
+		V_3 = L_7;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 354));
+		RuntimeObject* L_8 = __this->___m_Component;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 355));
+		NullCheck(L_8);
+		bool L_9;
+		L_9 = InterfaceFuncInvoker0< bool >::Invoke(8, IPixelPerfectCamera_tB4C3F4D97915BC1D1D31D68788C8F4290B94A987_il2cpp_TypeInfo_var, L_8);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 355));
+		V_4 = L_9;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 356));
+		RuntimeObject* L_10 = __this->___m_Component;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 357));
+		NullCheck(L_10);
+		bool L_11;
+		L_11 = InterfaceFuncInvoker0< bool >::Invoke(10, IPixelPerfectCamera_tB4C3F4D97915BC1D1D31D68788C8F4290B94A987_il2cpp_TypeInfo_var, L_10);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 357));
+		V_5 = L_11;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 358));
+		RuntimeObject* L_12 = __this->___m_Component;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 359));
+		NullCheck(L_12);
+		bool L_13;
+		L_13 = InterfaceFuncInvoker0< bool >::Invoke(12, IPixelPerfectCamera_tB4C3F4D97915BC1D1D31D68788C8F4290B94A987_il2cpp_TypeInfo_var, L_12);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 359));
+		V_6 = L_13;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 360));
+		RuntimeObject* L_14 = __this->___m_Component;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 361));
+		NullCheck(L_14);
+		bool L_15;
+		L_15 = InterfaceFuncInvoker0< bool >::Invoke(14, IPixelPerfectCamera_tB4C3F4D97915BC1D1D31D68788C8F4290B94A987_il2cpp_TypeInfo_var, L_14);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 361));
+		V_7 = L_15;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 362));
+		bool L_16 = V_6;
+		bool L_17 = V_5;
+		__this->___cropFrameXAndY = (bool)((int32_t)((int32_t)L_16&(int32_t)L_17));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 363));
+		bool L_18 = V_6;
+		bool L_19 = V_5;
+		__this->___cropFrameXOrY = (bool)((int32_t)((int32_t)L_18|(int32_t)L_19));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 364));
+		bool L_20 = __this->___cropFrameXAndY;
+		bool L_21 = V_7;
+		__this->___useStretchFill = (bool)((int32_t)((int32_t)L_20&(int32_t)L_21));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 365));
+		int32_t L_22 = ___1_screenHeight;
+		int32_t L_23 = V_2;
+		V_8 = ((int32_t)(L_22/L_23));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 366));
+		int32_t L_24 = ___0_screenWidth;
+		int32_t L_25 = V_1;
+		V_9 = ((int32_t)(L_24/L_25));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 367));
+		int32_t L_26 = V_8;
+		int32_t L_27 = V_9;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 368));
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		int32_t L_28;
+		L_28 = Math_Min_m53C488772A34D53917BCA2A491E79A0A5356ED52(L_26, L_27, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 368));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 369));
+		int32_t L_29;
+		L_29 = Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF(1, L_28, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 369));
+		__this->___zoom = L_29;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 370));
+		__this->___useOffscreenRT = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 371));
+		__this->___offscreenRTWidth = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 372));
+		__this->___offscreenRTHeight = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 373));
+		bool L_30 = __this->___cropFrameXOrY;
+		V_10 = L_30;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 374));
+		bool L_31 = V_10;
+		if (!L_31)
+		{
+			goto IL_0177;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 375));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 376));
+		bool L_32 = V_3;
+		V_11 = (bool)((((int32_t)L_32) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 377));
+		bool L_33 = V_11;
+		if (!L_33)
+		{
+			goto IL_010d;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 378));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 379));
+		bool L_34 = __this->___useStretchFill;
+		V_12 = L_34;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 380));
+		bool L_35 = V_12;
+		if (!L_35)
+		{
+			goto IL_010a;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 381));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 382));
+		__this->___useOffscreenRT = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 383));
+		int32_t L_36 = __this->___zoom;
+		int32_t L_37 = V_1;
+		__this->___offscreenRTWidth = ((int32_t)il2cpp_codegen_multiply(L_36, L_37));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 384));
+		int32_t L_38 = __this->___zoom;
+		int32_t L_39 = V_2;
+		__this->___offscreenRTHeight = ((int32_t)il2cpp_codegen_multiply(L_38, L_39));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 385));
+	}
+
+IL_010a:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 386));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 387));
+		goto IL_0174;
+	}
+
+IL_010d:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 388));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 389));
+		__this->___useOffscreenRT = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 390));
+		bool L_40 = __this->___cropFrameXAndY;
+		V_13 = L_40;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 391));
+		bool L_41 = V_13;
+		if (!L_41)
+		{
+			goto IL_0133;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 392));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 393));
+		int32_t L_42 = V_1;
+		__this->___offscreenRTWidth = L_42;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 394));
+		int32_t L_43 = V_2;
+		__this->___offscreenRTHeight = L_43;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 395));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 396));
+		goto IL_0173;
+	}
+
+IL_0133:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 397));
+		bool L_44 = V_6;
+		V_14 = L_44;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 398));
+		bool L_45 = V_14;
+		if (!L_45)
+		{
+			goto IL_0158;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 399));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 400));
+		int32_t L_46 = ___0_screenWidth;
+		int32_t L_47 = __this->___zoom;
+		__this->___offscreenRTWidth = ((int32_t)il2cpp_codegen_multiply(((int32_t)(((int32_t)(L_46/L_47))/2)), 2));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 401));
+		int32_t L_48 = V_2;
+		__this->___offscreenRTHeight = L_48;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 402));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 403));
+		goto IL_0173;
+	}
+
+IL_0158:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 404));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 405));
+		int32_t L_49 = V_1;
+		__this->___offscreenRTWidth = L_49;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 406));
+		int32_t L_50 = ___1_screenHeight;
+		int32_t L_51 = __this->___zoom;
+		__this->___offscreenRTHeight = ((int32_t)il2cpp_codegen_multiply(((int32_t)(((int32_t)(L_50/L_51))/2)), 2));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 407));
+	}
+
+IL_0173:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 408));
+	}
+
+IL_0174:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 409));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 410));
+		goto IL_01b9;
+	}
+
+IL_0177:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 411));
+		bool L_52 = V_3;
+		if (!L_52)
+		{
+			goto IL_0185;
+		}
+	}
+	{
+		int32_t L_53 = __this->___zoom;
+		G_B15_0 = ((((int32_t)L_53) > ((int32_t)1))? 1 : 0);
+		goto IL_0186;
+	}
+
+IL_0185:
+	{
+		G_B15_0 = 0;
+	}
+
+IL_0186:
+	{
+		V_15 = (bool)G_B15_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 412));
+		bool L_54 = V_15;
+		if (!L_54)
+		{
+			goto IL_01b9;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 413));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 414));
+		__this->___useOffscreenRT = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 415));
+		int32_t L_55 = ___0_screenWidth;
+		int32_t L_56 = __this->___zoom;
+		__this->___offscreenRTWidth = ((int32_t)il2cpp_codegen_multiply(((int32_t)(((int32_t)(L_55/L_56))/2)), 2));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 416));
+		int32_t L_57 = ___1_screenHeight;
+		int32_t L_58 = __this->___zoom;
+		__this->___offscreenRTHeight = ((int32_t)il2cpp_codegen_multiply(((int32_t)(((int32_t)(L_57/L_58))/2)), 2));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 417));
+	}
+
+IL_01b9:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 418));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 419));
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_59;
+		L_59 = Rect_get_zero_m5341D8B63DEF1F4C308A685EEC8CFEA12A396C8D(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 419));
+		__this->___pixelRect = L_59;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 420));
+		bool L_60 = __this->___cropFrameXOrY;
+		if (!L_60)
+		{
+			goto IL_01da;
+		}
+	}
+	{
+		bool L_61 = V_3;
+		if (L_61)
+		{
+			goto IL_01da;
+		}
+	}
+	{
+		bool L_62 = __this->___useStretchFill;
+		G_B21_0 = ((((int32_t)L_62) == ((int32_t)0))? 1 : 0);
+		goto IL_01db;
+	}
+
+IL_01da:
+	{
+		G_B21_0 = 0;
+	}
+
+IL_01db:
+	{
+		V_16 = (bool)G_B21_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 421));
+		bool L_63 = V_16;
+		if (!L_63)
+		{
+			goto IL_02b0;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 422));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 423));
+		bool L_64 = __this->___cropFrameXAndY;
+		V_17 = L_64;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 424));
+		bool L_65 = V_17;
+		if (!L_65)
+		{
+			goto IL_021f;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 425));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 426));
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_66 = (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D*)(&__this->___pixelRect);
+		int32_t L_67 = __this->___zoom;
+		int32_t L_68 = V_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 427));
+		Rect_set_width_m93B6217CF3EFF89F9B0C81F34D7345DE90B93E5A_inline(L_66, ((float)((int32_t)il2cpp_codegen_multiply(L_67, L_68))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 427));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 428));
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_69 = (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D*)(&__this->___pixelRect);
+		int32_t L_70 = __this->___zoom;
+		int32_t L_71 = V_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 429));
+		Rect_set_height_mD00038E6E06637137A5626CA8CD421924005BF03_inline(L_69, ((float)((int32_t)il2cpp_codegen_multiply(L_70, L_71))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 429));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 430));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 431));
+		goto IL_0273;
+	}
+
+IL_021f:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 432));
+		bool L_72 = V_6;
+		V_18 = L_72;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 433));
+		bool L_73 = V_18;
+		if (!L_73)
+		{
+			goto IL_024e;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 434));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 435));
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_74 = (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D*)(&__this->___pixelRect);
+		int32_t L_75 = ___0_screenWidth;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 436));
+		Rect_set_width_m93B6217CF3EFF89F9B0C81F34D7345DE90B93E5A_inline(L_74, ((float)L_75), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 436));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 437));
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_76 = (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D*)(&__this->___pixelRect);
+		int32_t L_77 = __this->___zoom;
+		int32_t L_78 = V_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 438));
+		Rect_set_height_mD00038E6E06637137A5626CA8CD421924005BF03_inline(L_76, ((float)((int32_t)il2cpp_codegen_multiply(L_77, L_78))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 438));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 439));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 440));
+		goto IL_0273;
+	}
+
+IL_024e:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 441));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 442));
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_79 = (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D*)(&__this->___pixelRect);
+		int32_t L_80 = __this->___zoom;
+		int32_t L_81 = V_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 443));
+		Rect_set_width_m93B6217CF3EFF89F9B0C81F34D7345DE90B93E5A_inline(L_79, ((float)((int32_t)il2cpp_codegen_multiply(L_80, L_81))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 443));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 444));
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_82 = (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D*)(&__this->___pixelRect);
+		int32_t L_83 = ___1_screenHeight;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 445));
+		Rect_set_height_mD00038E6E06637137A5626CA8CD421924005BF03_inline(L_82, ((float)L_83), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 445));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 446));
+	}
+
+IL_0273:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 447));
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_84 = (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D*)(&__this->___pixelRect);
+		int32_t L_85 = ___0_screenWidth;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_86 = (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D*)(&__this->___pixelRect);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 448));
+		float L_87;
+		L_87 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_inline(L_86, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 448));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 449));
+		Rect_set_x_mAB91AB71898A20762BC66FD0723C4C739C4C3406_inline(L_84, ((float)((int32_t)(((int32_t)il2cpp_codegen_subtract(L_85, il2cpp_codegen_cast_double_to_int<int32_t>(L_87)))/2))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 449));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 450));
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_88 = (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D*)(&__this->___pixelRect);
+		int32_t L_89 = ___1_screenHeight;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_90 = (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D*)(&__this->___pixelRect);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 451));
+		float L_91;
+		L_91 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline(L_90, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 451));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 452));
+		Rect_set_y_mDE91F4B98A6E8623EFB1250FF6526D5DB5855629_inline(L_88, ((float)((int32_t)(((int32_t)il2cpp_codegen_subtract(L_89, il2cpp_codegen_cast_double_to_int<int32_t>(L_91)))/2))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 452));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 453));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 454));
+		goto IL_02e1;
+	}
+
+IL_02b0:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 455));
+		bool L_92 = __this->___useOffscreenRT;
+		V_19 = L_92;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 456));
+		bool L_93 = V_19;
+		if (!L_93)
+		{
+			goto IL_02e1;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 457));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 458));
+		int32_t L_94 = __this->___offscreenRTWidth;
+		int32_t L_95 = __this->___offscreenRTHeight;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 459));
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_96;
+		memset((&L_96), 0, sizeof(L_96));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_96), (0.0f), (0.0f), ((float)L_94), ((float)L_95), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 459));
+		__this->___pixelRect = L_96;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 460));
+	}
+
+IL_02e1:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 461));
+		bool L_97 = V_6;
+		V_20 = L_97;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 462));
+		bool L_98 = V_20;
+		if (!L_98)
+		{
+			goto IL_02ff;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 463));
+		int32_t L_99 = V_2;
+		int32_t L_100 = V_0;
+		__this->___orthoSize = ((float)(((float)il2cpp_codegen_multiply(((float)L_99), (0.5f)))/((float)L_100)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 464));
+		goto IL_03bb;
+	}
+
+IL_02ff:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 465));
+		bool L_101 = V_5;
+		V_21 = L_101;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 466));
+		bool L_102 = V_21;
+		if (!L_102)
+		{
+			goto IL_0351;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 467));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 468));
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_103 = __this->___pixelRect;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 469));
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_104;
+		L_104 = Rect_get_zero_m5341D8B63DEF1F4C308A685EEC8CFEA12A396C8D(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 469));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 470));
+		bool L_105;
+		L_105 = Rect_op_Equality_mF2A038255CAF5F1E86079B9EE0FC96DE54307C1F_inline(L_103, L_104, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 470));
+		if (L_105)
+		{
+			goto IL_0333;
+		}
+	}
+	{
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_106 = (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D*)(&__this->___pixelRect);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 471));
+		float L_107;
+		L_107 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_inline(L_106, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 471));
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_108 = (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D*)(&__this->___pixelRect);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 472));
+		float L_109;
+		L_109 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline(L_108, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 472));
+		G_B36_0 = ((float)(L_107/L_109));
+		goto IL_0338;
+	}
+
+IL_0333:
+	{
+		int32_t L_110 = ___0_screenWidth;
+		int32_t L_111 = ___1_screenHeight;
+		G_B36_0 = ((float)(((float)L_110)/((float)L_111)));
+	}
+
+IL_0338:
+	{
+		V_22 = G_B36_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 473));
+		int32_t L_112 = V_1;
+		float L_113 = V_22;
+		int32_t L_114 = V_0;
+		__this->___orthoSize = ((float)(((float)il2cpp_codegen_multiply(((float)(((float)L_112)/L_113)), (0.5f)))/((float)L_114)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 474));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 475));
+		goto IL_03bb;
+	}
+
+IL_0351:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 476));
+		bool L_115 = V_3;
+		if (!L_115)
+		{
+			goto IL_035f;
+		}
+	}
+	{
+		int32_t L_116 = __this->___zoom;
+		G_B40_0 = ((((int32_t)L_116) > ((int32_t)1))? 1 : 0);
+		goto IL_0360;
+	}
+
+IL_035f:
+	{
+		G_B40_0 = 0;
+	}
+
+IL_0360:
+	{
+		V_23 = (bool)G_B40_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 477));
+		bool L_117 = V_23;
+		if (!L_117)
+		{
+			goto IL_037e;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 478));
+		int32_t L_118 = __this->___offscreenRTHeight;
+		int32_t L_119 = V_0;
+		__this->___orthoSize = ((float)(((float)il2cpp_codegen_multiply(((float)L_118), (0.5f)))/((float)L_119)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 479));
+		goto IL_03bb;
+	}
+
+IL_037e:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 480));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 481));
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_120 = __this->___pixelRect;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 482));
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_121;
+		L_121 = Rect_get_zero_m5341D8B63DEF1F4C308A685EEC8CFEA12A396C8D(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 482));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 483));
+		bool L_122;
+		L_122 = Rect_op_Equality_mF2A038255CAF5F1E86079B9EE0FC96DE54307C1F_inline(L_120, L_121, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 483));
+		if (L_122)
+		{
+			goto IL_039e;
+		}
+	}
+	{
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_123 = (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D*)(&__this->___pixelRect);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 484));
+		float L_124;
+		L_124 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline(L_123, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 484));
+		G_B45_0 = L_124;
+		goto IL_03a0;
+	}
+
+IL_039e:
+	{
+		int32_t L_125 = ___1_screenHeight;
+		G_B45_0 = ((float)L_125);
+	}
+
+IL_03a0:
+	{
+		V_24 = G_B45_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 485));
+		float L_126 = V_24;
+		int32_t L_127 = __this->___zoom;
+		int32_t L_128 = V_0;
+		__this->___orthoSize = ((float)(((float)il2cpp_codegen_multiply(L_126, (0.5f)))/((float)((int32_t)il2cpp_codegen_multiply(L_127, L_128)))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 486));
+	}
+
+IL_03bb:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 487));
+		bool L_129 = V_3;
+		if (L_129)
+		{
+			goto IL_03c7;
+		}
+	}
+	{
+		bool L_130 = V_3;
+		bool L_131 = V_4;
+		G_B49_0 = ((int32_t)(((((int32_t)L_130) == ((int32_t)0))? 1 : 0)&(int32_t)L_131));
+		goto IL_03c8;
+	}
+
+IL_03c7:
+	{
+		G_B49_0 = 1;
+	}
+
+IL_03c8:
+	{
+		V_25 = (bool)G_B49_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 488));
+		bool L_132 = V_25;
+		if (!L_132)
+		{
+			goto IL_03de;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 489));
+		int32_t L_133 = V_0;
+		__this->___unitsPerPixel = ((float)((1.0f)/((float)L_133)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 490));
+		goto IL_03f3;
+	}
+
+IL_03de:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 491));
+		int32_t L_134 = __this->___zoom;
+		int32_t L_135 = V_0;
+		__this->___unitsPerPixel = ((float)((1.0f)/((float)((int32_t)il2cpp_codegen_multiply(L_134, L_135)))));
+	}
+
+IL_03f3:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 492));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D PixelPerfectCameraInternal_CalculatePostRenderPixelRect_mC41F2F6B554C0E28AB9344868E3B887118221B39 (PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* __this, float ___0_cameraAspect, int32_t ___1_screenWidth, int32_t ___2_screenHeight, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCameraInternal_CalculatePostRenderPixelRect_mC41F2F6B554C0E28AB9344868E3B887118221B39_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	float V_2 = 0.0f;
+	bool V_3 = false;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_cameraAspect), (&___1_screenWidth), (&___2_screenHeight));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCameraInternal_CalculatePostRenderPixelRect_mC41F2F6B554C0E28AB9344868E3B887118221B39_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 493));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 494));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 495));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 496));
+		il2cpp_codegen_initobj((&V_0), sizeof(Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 497));
+		bool L_0 = __this->___useStretchFill;
+		V_1 = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 498));
+		bool L_1 = V_1;
+		if (!L_1)
+		{
+			goto IL_009e;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 499));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 500));
+		int32_t L_2 = ___1_screenWidth;
+		int32_t L_3 = ___2_screenHeight;
+		V_2 = ((float)(((float)L_2)/((float)L_3)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 501));
+		float L_4 = V_2;
+		float L_5 = ___0_cameraAspect;
+		V_3 = (bool)((((float)L_4) > ((float)L_5))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 502));
+		bool L_6 = V_3;
+		if (!L_6)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 503));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 504));
+		int32_t L_7 = ___2_screenHeight;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 505));
+		Rect_set_height_mD00038E6E06637137A5626CA8CD421924005BF03_inline((&V_0), ((float)L_7), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 505));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 506));
+		int32_t L_8 = ___2_screenHeight;
+		float L_9 = ___0_cameraAspect;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 507));
+		Rect_set_width_m93B6217CF3EFF89F9B0C81F34D7345DE90B93E5A_inline((&V_0), ((float)il2cpp_codegen_multiply(((float)L_8), L_9)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 507));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 508));
+		int32_t L_10 = ___1_screenWidth;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 509));
+		float L_11;
+		L_11 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_inline((&V_0), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 509));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 510));
+		Rect_set_x_mAB91AB71898A20762BC66FD0723C4C739C4C3406_inline((&V_0), ((float)((int32_t)(((int32_t)il2cpp_codegen_subtract(L_10, il2cpp_codegen_cast_double_to_int<int32_t>(L_11)))/2))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 510));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 511));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 512));
+		Rect_set_y_mDE91F4B98A6E8623EFB1250FF6526D5DB5855629_inline((&V_0), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 512));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 513));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 514));
+		goto IL_009b;
+	}
+
+IL_0061:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 515));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 516));
+		int32_t L_12 = ___1_screenWidth;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 517));
+		Rect_set_width_m93B6217CF3EFF89F9B0C81F34D7345DE90B93E5A_inline((&V_0), ((float)L_12), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 517));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 518));
+		int32_t L_13 = ___1_screenWidth;
+		float L_14 = ___0_cameraAspect;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 519));
+		Rect_set_height_mD00038E6E06637137A5626CA8CD421924005BF03_inline((&V_0), ((float)(((float)L_13)/L_14)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 519));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 520));
+		int32_t L_15 = ___2_screenHeight;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 521));
+		float L_16;
+		L_16 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline((&V_0), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 521));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 522));
+		Rect_set_y_mDE91F4B98A6E8623EFB1250FF6526D5DB5855629_inline((&V_0), ((float)((int32_t)(((int32_t)il2cpp_codegen_subtract(L_15, il2cpp_codegen_cast_double_to_int<int32_t>(L_16)))/2))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 522));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 523));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 524));
+		Rect_set_x_mAB91AB71898A20762BC66FD0723C4C739C4C3406_inline((&V_0), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 524));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 525));
+	}
+
+IL_009b:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 526));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 527));
+		goto IL_00f6;
+	}
+
+IL_009e:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 528));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 529));
+		int32_t L_17 = __this->___zoom;
+		int32_t L_18 = __this->___offscreenRTHeight;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 530));
+		Rect_set_height_mD00038E6E06637137A5626CA8CD421924005BF03_inline((&V_0), ((float)((int32_t)il2cpp_codegen_multiply(L_17, L_18))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 530));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 531));
+		int32_t L_19 = __this->___zoom;
+		int32_t L_20 = __this->___offscreenRTWidth;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 532));
+		Rect_set_width_m93B6217CF3EFF89F9B0C81F34D7345DE90B93E5A_inline((&V_0), ((float)((int32_t)il2cpp_codegen_multiply(L_19, L_20))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 532));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 533));
+		int32_t L_21 = ___1_screenWidth;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 534));
+		float L_22;
+		L_22 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_inline((&V_0), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 534));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 535));
+		Rect_set_x_mAB91AB71898A20762BC66FD0723C4C739C4C3406_inline((&V_0), ((float)((int32_t)(((int32_t)il2cpp_codegen_subtract(L_21, il2cpp_codegen_cast_double_to_int<int32_t>(L_22)))/2))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 535));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 536));
+		int32_t L_23 = ___2_screenHeight;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 537));
+		float L_24;
+		L_24 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline((&V_0), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 537));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 538));
+		Rect_set_y_mDE91F4B98A6E8623EFB1250FF6526D5DB5855629_inline((&V_0), ((float)((int32_t)(((int32_t)il2cpp_codegen_subtract(L_23, il2cpp_codegen_cast_double_to_int<int32_t>(L_24)))/2))), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 538));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 539));
+	}
+
+IL_00f6:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 540));
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_25 = V_0;
+		V_4 = L_25;
+		goto IL_00fb;
+	}
+
+IL_00fb:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 541));
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_26 = V_4;
+		return L_26;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float PixelPerfectCameraInternal_CorrectCinemachineOrthoSize_mCD4C1B0EBDC7FBDE0A17AA8BE4F5EC1ABD574CED (PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE* __this, float ___0_targetOrthoSize, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPixelPerfectCamera_tB4C3F4D97915BC1D1D31D68788C8F4290B94A987_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCameraInternal_CorrectCinemachineOrthoSize_mCD4C1B0EBDC7FBDE0A17AA8BE4F5EC1ABD574CED_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	bool V_1 = false;
+	bool V_2 = false;
+	float V_3 = 0.0f;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_targetOrthoSize));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PixelPerfectCameraInternal_CorrectCinemachineOrthoSize_mCD4C1B0EBDC7FBDE0A17AA8BE4F5EC1ABD574CED_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 542));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 543));
+	int32_t G_B6_0 = 0;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 544));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 545));
+		RuntimeObject* L_0 = __this->___m_Component;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 546));
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = InterfaceFuncInvoker0< bool >::Invoke(6, IPixelPerfectCamera_tB4C3F4D97915BC1D1D31D68788C8F4290B94A987_il2cpp_TypeInfo_var, L_0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 546));
+		V_1 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 547));
+		bool L_2 = V_1;
+		if (!L_2)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 548));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 549));
+		float L_3 = __this->___orthoSize;
+		float L_4 = ___0_targetOrthoSize;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 550));
+		int32_t L_5;
+		L_5 = Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline(((float)(L_3/L_4)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 550));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 551));
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		int32_t L_6;
+		L_6 = Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF(1, L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 551));
+		__this->___cinemachineVCamZoom = L_6;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 552));
+		float L_7 = __this->___orthoSize;
+		int32_t L_8 = __this->___cinemachineVCamZoom;
+		V_0 = ((float)(L_7/((float)L_8)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 553));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 554));
+		goto IL_0076;
+	}
+
+IL_003c:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 555));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 556));
+		int32_t L_9 = __this->___zoom;
+		float L_10 = __this->___orthoSize;
+		float L_11 = ___0_targetOrthoSize;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 557));
+		int32_t L_12;
+		L_12 = Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline(((float)(((float)il2cpp_codegen_multiply(((float)L_9), L_10))/L_11)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 557));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 558));
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		int32_t L_13;
+		L_13 = Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF(1, L_12, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 558));
+		__this->___cinemachineVCamZoom = L_13;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 559));
+		int32_t L_14 = __this->___zoom;
+		float L_15 = __this->___orthoSize;
+		int32_t L_16 = __this->___cinemachineVCamZoom;
+		V_0 = ((float)(((float)il2cpp_codegen_multiply(((float)L_14), L_15))/((float)L_16)));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 560));
+	}
+
+IL_0076:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 561));
+		RuntimeObject* L_17 = __this->___m_Component;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 562));
+		NullCheck(L_17);
+		bool L_18;
+		L_18 = InterfaceFuncInvoker0< bool >::Invoke(6, IPixelPerfectCamera_tB4C3F4D97915BC1D1D31D68788C8F4290B94A987_il2cpp_TypeInfo_var, L_17);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 562));
+		if (L_18)
+		{
+			goto IL_0093;
+		}
+	}
+	{
+		RuntimeObject* L_19 = __this->___m_Component;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 563));
+		NullCheck(L_19);
+		bool L_20;
+		L_20 = InterfaceFuncInvoker0< bool >::Invoke(8, IPixelPerfectCamera_tB4C3F4D97915BC1D1D31D68788C8F4290B94A987_il2cpp_TypeInfo_var, L_19);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 563));
+		G_B6_0 = ((((int32_t)L_20) == ((int32_t)0))? 1 : 0);
+		goto IL_0094;
+	}
+
+IL_0093:
+	{
+		G_B6_0 = 0;
+	}
+
+IL_0094:
+	{
+		V_2 = (bool)G_B6_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 564));
+		bool L_21 = V_2;
+		if (!L_21)
+		{
+			goto IL_00b7;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 565));
+		int32_t L_22 = __this->___cinemachineVCamZoom;
+		RuntimeObject* L_23 = __this->___m_Component;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 566));
+		NullCheck(L_23);
+		int32_t L_24;
+		L_24 = InterfaceFuncInvoker0< int32_t >::Invoke(0, IPixelPerfectCamera_tB4C3F4D97915BC1D1D31D68788C8F4290B94A987_il2cpp_TypeInfo_var, L_23);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 566));
+		__this->___unitsPerPixel = ((float)((1.0f)/((float)((int32_t)il2cpp_codegen_multiply(L_22, L_24)))));
+	}
+
+IL_00b7:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 567));
+		float L_25 = V_0;
+		V_3 = L_25;
+		goto IL_00bb;
+	}
+
+IL_00bb:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_PixelPerfect + 568));
+		float L_26 = V_3;
+		return L_26;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7528));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7529));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7530));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7531));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7532));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), ((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)), ((float)il2cpp_codegen_subtract(L_9, L_11)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7532));
+		V_0 = L_12;
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7533));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
+		return L_13;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7534));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7535));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7536));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7537));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_a;
+		float L_3 = L_2.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___z;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7538));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		memset((&L_6), 0, sizeof(L_6));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_6), ((-L_1)), ((-L_3)), ((-L_5)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7538));
+		V_0 = L_6;
+		goto IL_001e;
+	}
+
+IL_001e:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7539));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_0;
+		return L_7;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7634));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7635));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7636));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7637));
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ((Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields*)il2cpp_codegen_static_fields_for(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var))->___identityQuaternion;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7638));
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y), (&___2_z));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7298));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7299));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7300));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7301));
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7302));
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7303));
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7304));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Rect_op_Inequality_mB5D7316EB50B1DDA9324F4BE6741DFF6A673137D_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_lhs, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___1_rhs, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect_op_Inequality_mB5D7316EB50B1DDA9324F4BE6741DFF6A673137D_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_lhs), (&___1_rhs));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Rect_op_Inequality_mB5D7316EB50B1DDA9324F4BE6741DFF6A673137D_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3546));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3547));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3548));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3549));
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_0 = ___0_lhs;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1 = ___1_rhs;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3550));
+		bool L_2;
+		L_2 = Rect_op_Equality_mF2A038255CAF5F1E86079B9EE0FC96DE54307C1F_inline(L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3550));
+		V_0 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3551));
+		bool L_3 = V_0;
+		return L_3;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_x, float ___1_y, float ___2_width, float ___3_height, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y), (&___2_width), (&___3_height));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3285));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3286));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3287));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3288));
+		float L_0 = ___0_x;
+		__this->___m_XMin = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3289));
+		float L_1 = ___1_y;
+		__this->___m_YMin = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3290));
+		float L_2 = ___2_width;
+		__this->___m_Width = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3291));
+		float L_3 = ___3_height;
+		__this->___m_Height = L_3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3292));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_black_mB50217951591A045844C61E7FF31EEE3FEF16737_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_get_black_mB50217951591A045844C61E7FF31EEE3FEF16737_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_tD001788D726C3A7F1379BEED0260B9591F440C1F_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color_get_black_mB50217951591A045844C61E7FF31EEE3FEF16737_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6737));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6738));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6739));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6740));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6741));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (0.0f), (0.0f), (0.0f), (1.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6741));
+		V_0 = L_0;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6742));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_tD001788D726C3A7F1379BEED0260B9591F440C1F_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6713));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6714));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6715));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6716));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6717));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (1.0f), (0.0f), (0.0f), (1.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6717));
+		V_0 = L_0;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6718));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A Vector2Int_get_zero_mF92C338E9CB9434105090E675E04D20A29649553_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2Int_get_zero_mF92C338E9CB9434105090E675E04D20A29649553_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2Int_get_zero_mF92C338E9CB9434105090E675E04D20A29649553_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8593));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8594));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8595));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8596));
+		Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A L_0 = ((Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A_StaticFields*)il2cpp_codegen_static_fields_for(Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A_il2cpp_TypeInfo_var))->___s_Zero;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8597));
+		Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2Int_set_x_m291ECF246536852F0B8EE049C4A3768E4999CDC8_inline (Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2Int_set_x_m291ECF246536852F0B8EE049C4A3768E4999CDC8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2Int_set_x_m291ECF246536852F0B8EE049C4A3768E4999CDC8_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8499));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8500));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8501));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8502));
+		int32_t L_0 = ___0_value;
+		__this->___m_X = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8503));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2Int_set_y_mF81881204EEE272BA409728C7EBFDE3A979DDF6A_inline (Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2Int_set_y_mF81881204EEE272BA409728C7EBFDE3A979DDF6A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2Int_set_y_mF81881204EEE272BA409728C7EBFDE3A979DDF6A_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8509));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8510));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8511));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8512));
+		int32_t L_0 = ___0_value;
+		__this->___m_Y = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8513));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Vector2Int_get_x_mA2CACB1B6E6B5AD0CCC32B2CD2EDCE3ECEB50576_inline (Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2Int_get_x_mA2CACB1B6E6B5AD0CCC32B2CD2EDCE3ECEB50576_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2Int_get_x_mA2CACB1B6E6B5AD0CCC32B2CD2EDCE3ECEB50576_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8494));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8495));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8496));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8497));
+		int32_t L_0 = __this->___m_X;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8498));
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Vector2Int_get_y_m48454163ECF0B463FB5A16A0C4FC4B14DB0768B3_inline (Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2Int_get_y_m48454163ECF0B463FB5A16A0C4FC4B14DB0768B3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2Int_get_y_m48454163ECF0B463FB5A16A0C4FC4B14DB0768B3_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8504));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8505));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8506));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8507));
+		int32_t L_0 = __this->___m_Y;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 8508));
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect_set_width_m93B6217CF3EFF89F9B0C81F34D7345DE90B93E5A_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect_set_width_m93B6217CF3EFF89F9B0C81F34D7345DE90B93E5A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Rect_set_width_m93B6217CF3EFF89F9B0C81F34D7345DE90B93E5A_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3396));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3397));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3398));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3399));
+		float L_0 = ___0_value;
+		__this->___m_Width = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3400));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect_set_height_mD00038E6E06637137A5626CA8CD421924005BF03_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect_set_height_mD00038E6E06637137A5626CA8CD421924005BF03_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Rect_set_height_mD00038E6E06637137A5626CA8CD421924005BF03_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3406));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3407));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3408));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3409));
+		float L_0 = ___0_value;
+		__this->___m_Height = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3410));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3391));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3392));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3393));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3394));
+		float L_0 = __this->___m_Width;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3395));
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect_set_x_mAB91AB71898A20762BC66FD0723C4C739C4C3406_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect_set_x_mAB91AB71898A20762BC66FD0723C4C739C4C3406_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Rect_set_x_mAB91AB71898A20762BC66FD0723C4C739C4C3406_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3324));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3325));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3326));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3327));
+		float L_0 = ___0_value;
+		__this->___m_XMin = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3328));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3401));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3402));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3403));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3404));
+		float L_0 = __this->___m_Height;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3405));
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect_set_y_mDE91F4B98A6E8623EFB1250FF6526D5DB5855629_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect_set_y_mDE91F4B98A6E8623EFB1250FF6526D5DB5855629_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Rect_set_y_mDE91F4B98A6E8623EFB1250FF6526D5DB5855629_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3334));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3335));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3336));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3337));
+		float L_0 = ___0_value;
+		__this->___m_YMin = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3338));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Rect_op_Equality_mF2A038255CAF5F1E86079B9EE0FC96DE54307C1F_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_lhs, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___1_rhs, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect_op_Equality_mF2A038255CAF5F1E86079B9EE0FC96DE54307C1F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_lhs), (&___1_rhs));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Rect_op_Equality_mF2A038255CAF5F1E86079B9EE0FC96DE54307C1F_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3552));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3553));
+	int32_t G_B5_0 = 0;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3554));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3555));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3556));
+		float L_0;
+		L_0 = Rect_get_x_mB267B718E0D067F2BAE31BA477647FBF964916EB_inline((&___0_lhs), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3556));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3557));
+		float L_1;
+		L_1 = Rect_get_x_mB267B718E0D067F2BAE31BA477647FBF964916EB_inline((&___1_rhs), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3557));
+		if ((!(((float)L_0) == ((float)L_1))))
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3558));
+		float L_2;
+		L_2 = Rect_get_y_mC733E8D49F3CE21B2A3D40A1B72D687F22C97F49_inline((&___0_lhs), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3558));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3559));
+		float L_3;
+		L_3 = Rect_get_y_mC733E8D49F3CE21B2A3D40A1B72D687F22C97F49_inline((&___1_rhs), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3559));
+		if ((!(((float)L_2) == ((float)L_3))))
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3560));
+		float L_4;
+		L_4 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_inline((&___0_lhs), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3560));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3561));
+		float L_5;
+		L_5 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_inline((&___1_rhs), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3561));
+		if ((!(((float)L_4) == ((float)L_5))))
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3562));
+		float L_6;
+		L_6 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline((&___0_lhs), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3562));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3563));
+		float L_7;
+		L_7 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline((&___1_rhs), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3563));
+		G_B5_0 = ((((float)L_6) == ((float)L_7))? 1 : 0);
+		goto IL_0044;
+	}
+
+IL_0043:
+	{
+		G_B5_0 = 0;
+	}
+
+IL_0044:
+	{
+		V_0 = (bool)G_B5_0;
+		goto IL_0047;
+	}
+
+IL_0047:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3564));
+		bool L_8 = V_0;
+		return L_8;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline (float ___0_f, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_f));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7965));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7966));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7967));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7968));
+		float L_0 = ___0_f;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7969));
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_1;
+		L_1 = bankers_round(((double)L_0));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7969));
+		V_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_1);
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7970));
+		int32_t L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline (const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 2));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = ((EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->rgctx_data, 2)))->___Value;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_tD001788D726C3A7F1379BEED0260B9591F440C1F_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_r), (&___1_g), (&___2_b), (&___3_a));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6601));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6602));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6603));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6604));
+		float L_0 = ___0_r;
+		__this->___r = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6605));
+		float L_1 = ___1_g;
+		__this->___g = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6606));
+		float L_2 = ___2_b;
+		__this->___b = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6607));
+		float L_3 = ___3_a;
+		__this->___a = L_3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6608));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_x_mB267B718E0D067F2BAE31BA477647FBF964916EB_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect_get_x_mB267B718E0D067F2BAE31BA477647FBF964916EB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Rect_get_x_mB267B718E0D067F2BAE31BA477647FBF964916EB_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3319));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3320));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3321));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3322));
+		float L_0 = __this->___m_XMin;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3323));
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_y_mC733E8D49F3CE21B2A3D40A1B72D687F22C97F49_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect_get_y_mC733E8D49F3CE21B2A3D40A1B72D687F22C97F49_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Rect_get_y_mC733E8D49F3CE21B2A3D40A1B72D687F22C97F49_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3329));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3330));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3331));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3332));
+		float L_0 = __this->___m_YMin;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 3333));
+		float L_1 = V_0;
+		return L_1;
+	}
+}
