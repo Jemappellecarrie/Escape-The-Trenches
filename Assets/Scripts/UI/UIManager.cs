@@ -1,9 +1,14 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using EscapeTheTrenches.Core;
+using System;
+using EscapeTheTrenches.Player;
+
 
 namespace EscapeTheTrenches.UI
 {
+
+
     public class UIManager : MonoBehaviour
     {
         // 主菜单、游戏结束和游戏内 HUD 面板
@@ -12,6 +17,8 @@ namespace EscapeTheTrenches.UI
         public GameObject playingPanel; // 游戏进行时显示 HUD
         // 货币化选项面板（GameOver 时显示）
         public GameObject monetizationPanel;
+
+        private PlayerController player;
 
         [SerializeField] private GameManager _manager;
 
@@ -78,6 +85,7 @@ namespace EscapeTheTrenches.UI
             }
         }
 
+
         /// <summary>
         /// 处理游戏结束事件，显示货币化选项面板
         /// </summary>
@@ -119,6 +127,21 @@ namespace EscapeTheTrenches.UI
             coinCount = coins;
             if (coinText != null)
                 coinText.text = "Coins: " + coinCount;
+        }
+
+        private void Start()
+        {
+            // 将找到的玩家赋值给类字段，而不是创建局部变量
+            player = FindObjectOfType<PlayerController>();
+            if (player != null)
+            {
+                player.OnCoinCountChanged += UpdateCoinCount;
+                UpdateCoinCount(player.coinCount); // 初始更新
+            }
+            else
+            {
+                Debug.LogWarning("PlayerController 未找到！");
+            }
         }
 
         /// <summary>

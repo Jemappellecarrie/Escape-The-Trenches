@@ -46,13 +46,13 @@ namespace EscapeTheTrenches.Obstacles
 
         private void SpawnObstacle()
         {
-            if (obstaclePrefabs.Length == 0 || spawnPoint == null)
+            /*if (obstaclePrefabs.Length == 0 || spawnPoint == null)
                 return;
 
             int index = Random.Range(0, obstaclePrefabs.Length);
             // 在 spawnPoint 的基础上增加水平随机偏移和垂直偏移
             Vector3 spawnPosition = spawnPoint.position + new Vector3(Random.Range(-horizontalRange, horizontalRange), verticalOffset, 0);
-            Instantiate(obstaclePrefabs[index], spawnPosition, Quaternion.identity);
+            Instantiate(obstaclePrefabs[index], spawnPosition, Quaternion.identity);*/
         }
     }
 }

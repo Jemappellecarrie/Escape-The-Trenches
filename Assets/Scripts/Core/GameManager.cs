@@ -1,6 +1,10 @@
 ﻿using UnityEngine;
 using System;
 
+using EscapeTheTrenches.Player;
+using EscapeTheTrenches.Data;
+
+
 namespace EscapeTheTrenches.Core
 {
     public class GameManager : MonoBehaviour
@@ -33,6 +37,8 @@ namespace EscapeTheTrenches.Core
                 Instance = this;
                 DontDestroyOnLoad(gameObject);
                 AttemptsRemaining = MaxAttempts;
+
+                SetGameState(GameState.MainMenu);
             }
             else
             {
@@ -105,7 +111,7 @@ namespace EscapeTheTrenches.Core
         public void ResetAttempts()
         {
             AttemptsRemaining = MaxAttempts;
-            OnAttemptsChanged?.Invoke(AttemptsRemaining);
+            OnAttemptsChanged?.Invoke(AttemptsRemaining );
             Debug.Log("尝试次数已重置。");
         }
 
@@ -117,5 +123,68 @@ namespace EscapeTheTrenches.Core
             SetGameState(GameState.Playing);
             Debug.Log("继续当前游戏尝试。");
         }
+
+        public void ReturnToMainMenu()
+        {
+            // 如果需要在返回主菜单时重置尝试次数或其他数据，可以在这里调用 ResetAttempts() 等方法
+            ResetAttempts();
+            ClearAllEnemies();
+            GameManager.Instance.EndSession(false);
+            PlayerController player = FindObjectOfType<PlayerController>();
+            if (player != null)
+            {
+                player.coinCount = 0;
+            }
+
+            SetGameState(GameState.MainMenu);
+            Debug.Log("返回主菜单");
+        }
+        public void ClearAllEnemies()
+        {
+            GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+            foreach (GameObject enemy in enemies)
+            {
+                Destroy(enemy);
+            }
+        }
+
+        public void AddSessionCoinsToPersistent(bool doubleReward)
+        {
+            var player = FindObjectOfType<PlayerController>();
+            if (player != null)
+            {
+                GameData data = SaveSystem.LoadData();
+                int coinsToAdd = player.coinCount;
+                if (doubleReward)
+                {
+                    coinsToAdd *= 2;
+                }
+                data.currency += coinsToAdd;
+                SaveSystem.SaveData(data);
+                Debug.Log("累加本局金币：" + coinsToAdd + "，持久金币总数：" + data.currency);
+            }
+        }
+
+        public void EndSession(bool doubleReward)
+        {
+            // 找到玩家，获取本局金币
+            PlayerController player = FindObjectOfType<PlayerController>();
+            if (player != null)
+            {
+                int coinsToAdd = player.coinCount;
+                if (doubleReward)
+                {
+                    coinsToAdd *= 2;
+                }
+                // 加载当前持久数据
+                GameData data = SaveSystem.LoadData();
+                data.currency += coinsToAdd;
+                SaveSystem.SaveData(data);
+                Debug.Log("本局金币 " + coinsToAdd + " 已加入总金币，当前总金币：" + data.currency);
+            }
+        }
+
+
+
     }
 }
